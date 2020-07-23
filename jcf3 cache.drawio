@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2020-07-22T10:05:04.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" version="13.4.9" etag="CaWoomNYCfmeUodWu0rq" type="github"><diagram id="GqNbyZiJzV9DIZdHQAGh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-23T01:47:46.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" etag="lc04h5n1e7hFSb8Clrtu" version="13.5.1" type="github">
+  <diagram id="GqNbyZiJzV9DIZdHQAGh" name="Page-1">
+    <mxGraphModel dx="1108" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hbEYWHR7za1f3uJQZWqx-1" target="hbEYWHR7za1f3uJQZWqx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="hbEYWHR7za1f3uJQZWqx-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-1" value="CacheManagerManage" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hbEYWHR7za1f3uJQZWqx-2" target="hbEYWHR7za1f3uJQZWqx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-2" value="CacheManager" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hbEYWHR7za1f3uJQZWqx-4" target="hbEYWHR7za1f3uJQZWqx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-4" value="RedisCacheManager" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hbEYWHR7za1f3uJQZWqx-6" target="hbEYWHR7za1f3uJQZWqx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-6" value="RedisCache" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hbEYWHR7za1f3uJQZWqx-8" target="hbEYWHR7za1f3uJQZWqx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-8" value="CacheWriter" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="218" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-12" value="基于redisTemplate 编写CacheWriter" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;shadow=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hbEYWHR7za1f3uJQZWqx-16" value="&lt;span&gt;CacheManagerProperties&lt;br&gt;根据&lt;br&gt;&lt;/span&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="170" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
