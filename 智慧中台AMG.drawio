@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T06:16:34.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="bQZcpfR0IMNbSnJGpJy1" version="14.8.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-22T06:16:53.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54" etag="jPwxih7GMDpj4ZSH0GAL" version="14.8.0" type="github" pages="5">
   <diagram id="Sctxg6YUtqxgQXYKuY3S" name="Page-1">
     <mxGraphModel dx="1108" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -236,7 +236,7 @@
         <mxCell id="OC57HQLg-QQ5nuB7Cv97-0" />
         <mxCell id="OC57HQLg-QQ5nuB7Cv97-1" parent="OC57HQLg-QQ5nuB7Cv97-0" />
         <mxCell id="Uk8GRjhWhNQTO7LnBevv-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;缓存管理（全量定期刷新通知，接收下发通知刷新缓存）&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;pointerEvents=0;fillColor=#fff2cc;verticalAlign=top;strokeColor=#d6b656;" vertex="1" parent="OC57HQLg-QQ5nuB7Cv97-1">
-          <mxGeometry x="20" y="320" width="490" height="150" as="geometry" />
+          <mxGeometry x="30" y="320" width="490" height="150" as="geometry" />
         </mxCell>
         <mxCell id="4jJnBZCPFhitQu8RjMwX-7" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;能力治理&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;类&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;微服务&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;pointerEvents=0;fillColor=#cce5ff;verticalAlign=top;strokeColor=#36393d;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
           <mxGeometry x="30" y="160" width="490" height="150" as="geometry" />
