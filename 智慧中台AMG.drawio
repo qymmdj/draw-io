@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T08:02:05.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="-dAUf0RkFOdW6OYCv3zi" version="14.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-28T08:05:52.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="2m5VsQnTicZSP8a6yiTi" version="14.8.1" type="github" pages="6">
   <diagram id="Sctxg6YUtqxgQXYKuY3S" name="Page-1">
     <mxGraphModel dx="1108" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -355,7 +355,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DUuiSMzpB0MHdLy_sVk0" name="网关运行流程">
-    <mxGraphModel dx="2300" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="2300" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="eoFvazOYoVXe5MVRfVET-0" />
         <mxCell id="eoFvazOYoVXe5MVRfVET-1" parent="eoFvazOYoVXe5MVRfVET-0" />
@@ -374,7 +374,7 @@
         <mxCell id="DfNfZrt7AIXCKAgTbiaM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="eoFvazOYoVXe5MVRfVET-1" source="DfNfZrt7AIXCKAgTbiaM-3" target="DfNfZrt7AIXCKAgTbiaM-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DfNfZrt7AIXCKAgTbiaM-3" value="IP黑白名单校验" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="eoFvazOYoVXe5MVRfVET-1">
+        <mxCell id="DfNfZrt7AIXCKAgTbiaM-3" value="IP黑白名单校验" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="eoFvazOYoVXe5MVRfVET-1">
           <mxGeometry x="-935" y="-405" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DfNfZrt7AIXCKAgTbiaM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="eoFvazOYoVXe5MVRfVET-1" source="DfNfZrt7AIXCKAgTbiaM-5" target="DfNfZrt7AIXCKAgTbiaM-7">
@@ -488,6 +488,9 @@
         </mxCell>
         <mxCell id="DfNfZrt7AIXCKAgTbiaM-44" value="生成日志" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" vertex="1" parent="eoFvazOYoVXe5MVRfVET-1">
           <mxGeometry x="-230" y="-245" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DfNfZrt7AIXCKAgTbiaM-49" value="operator调用磐基实现" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="eoFvazOYoVXe5MVRfVET-1">
+          <mxGeometry x="-300" y="-630" width="145" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
