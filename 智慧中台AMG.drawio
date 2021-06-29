@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T02:37:31.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="UFSoWWzHu7EfmmL1oiOE" version="14.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-29T02:39:16.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="Juq72ljKRgL6PpNh57JB" version="14.8.1" type="github" pages="6">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -501,7 +501,7 @@
         <mxCell id="DfNfZrt7AIXCKAgTbiaM-49" value="operator调用磐基实现" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="eoFvazOYoVXe5MVRfVET-1" vertex="1">
           <mxGeometry x="-300" y="-630" width="145" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fVZXRLluibwA9DK9Azjw-1" value="&lt;h1&gt;流控&lt;/h1&gt;&lt;p&gt;1：入口流量：如果是消费者APP归属AMG，则控制入口流量&lt;/p&gt;&lt;p&gt;2：出口流量：如果是服务提供者归属AMG，则控制出口流&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 量，&lt;span style=&quot;font-size: 9pt&quot;&gt;护下游服务的服务总流量&lt;/span&gt;&lt;/p&gt;&lt;p&gt;3：中间链路AMG非归属AMG，不做限流控制&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="eoFvazOYoVXe5MVRfVET-1">
+        <mxCell id="fVZXRLluibwA9DK9Azjw-1" value="&lt;h1&gt;流控&lt;/h1&gt;&lt;p&gt;1：入口流量：如果是消费者APP归属AMG，则控制入口流量，&lt;span style=&quot;font-size: 9pt&quot;&gt;对调用者应用流量控制&lt;/span&gt;&lt;/p&gt;&lt;p&gt;2：出口流量：如果是服务提供者归属AMG，则控制出口流&amp;nbsp; &amp;nbsp; &amp;nbsp; 量，&lt;span style=&quot;font-size: 9pt&quot;&gt;护下游服务的服务总流量&lt;/span&gt;&lt;/p&gt;&lt;p&gt;3：中间链路AMG非归属AMG，不做限流控制&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="eoFvazOYoVXe5MVRfVET-1">
           <mxGeometry x="-950" y="-40" width="340" height="170" as="geometry" />
         </mxCell>
       </root>
