@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T03:52:41.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="XCtnqPrHJeN-bEjj6xnA" version="14.8.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-07-08T03:54:01.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="THH8a96XvG36HDkFZVCa" version="14.8.4" type="github" pages="6">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -46,13 +46,14 @@
         <mxCell id="84nE5ot_cG_BJnyZ2Ct3-4" value="AMG-网关" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;shadow=1;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
           <mxGeometry x="-300" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="58FKScHTOD0fjgMbz1a8-0" value="&lt;font face=&quot;宋体&quot;&gt;流控、熔断等上报接口&lt;/font&gt;" style="endArrow=classic;html=1;entryX=0.45;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;fontColor=#141414;strokeColor=#141414;exitX=0.008;exitY=0.58;exitDx=0;exitDy=0;exitPerimeter=0;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="cLjiAWQgn1-5IM3SHc4H-0" target="zKTPC_A6eEu45X3fTq7L-0" edge="1">
+        <mxCell id="58FKScHTOD0fjgMbz1a8-0" value="&lt;font face=&quot;宋体&quot;&gt;流控、熔断等上报接口&lt;/font&gt;" style="endArrow=classic;html=1;entryX=0.45;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;fontColor=#141414;strokeColor=#141414;exitX=0;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="UfGcfgyKQdFJ5vjehDNS-1" target="zKTPC_A6eEu45X3fTq7L-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="348" y="388" as="sourcePoint" />
             <mxPoint x="20" y="150" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="351" y="388" />
-              <mxPoint x="4" y="388" />
+              <mxPoint x="330" y="261" />
+              <mxPoint x="330" y="310" />
+              <mxPoint x="4" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
