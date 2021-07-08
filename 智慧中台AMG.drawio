@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T04:01:37.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="z3ncGDlFS5lHG1l7JU-x" version="14.8.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-07-08T06:27:21.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="rPHdXvXc8mVOvOJaJEYk" version="14.8.4" type="github" pages="6">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -90,7 +90,7 @@
         <mxCell id="aicW-fnA6qDHuhY_AQFV-4" value="日志" style="edgeStyle=none;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#141414;startArrow=none;startFill=0;strokeColor=#141414;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="5svcY1SSpPLeqzfkWsX5-3" target="aicW-fnA6qDHuhY_AQFV-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5svcY1SSpPLeqzfkWsX5-3" value="ESB" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
+        <mxCell id="5svcY1SSpPLeqzfkWsX5-3" value="ESB？" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
           <mxGeometry x="-300" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cLjiAWQgn1-5IM3SHc4H-4" value="" style="edgeStyle=orthogonalEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="UfGcfgyKQdFJ5vjehDNS-1" target="cLjiAWQgn1-5IM3SHc4H-1" edge="1">
@@ -102,7 +102,7 @@
         <mxCell id="UfGcfgyKQdFJ5vjehDNS-1" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;接口&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;对接&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px&quot;&gt;&lt;br&gt;cmg-interface-proc&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffff88;strokeColor=#36393d;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
           <mxGeometry x="440" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mm-TyVejt9eaW4gIl97c-3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=classicThin;endFill=1;entryX=0.567;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="hdogqXHSBpEaAjrL4_Qm-1" target="Mm-TyVejt9eaW4gIl97c-0" edge="1">
+        <mxCell id="Mm-TyVejt9eaW4gIl97c-3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=classicThin;endFill=1;entryX=0.567;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.033;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="cLjiAWQgn1-5IM3SHc4H-0" target="Mm-TyVejt9eaW4gIl97c-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="460" as="sourcePoint" />
             <mxPoint x="205" y="650" as="targetPoint" />
@@ -176,7 +176,7 @@
             <mxPoint x="205" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fqj1xfR9sEQ374SJdePA-7" value="&lt;b&gt;EKL&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;rounded=1;shadow=1;glass=0;pointerEvents=0;fontColor=#141414;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
+        <mxCell id="fqj1xfR9sEQ374SJdePA-7" value="&lt;b&gt;ELK&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;rounded=1;shadow=1;glass=0;pointerEvents=0;fontColor=#141414;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
           <mxGeometry x="95" y="875" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aicW-fnA6qDHuhY_AQFV-3" value="&lt;b&gt;省内KAFKA&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;shadow=1;glass=0;pointerEvents=0;fontColor=#141414;fillColor=#FF99CC;gradientColor=none;align=center;verticalAlign=top;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
@@ -201,6 +201,11 @@
         </mxCell>
         <mxCell id="Mm-TyVejt9eaW4gIl97c-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=classicThin;endFill=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="Mm-TyVejt9eaW4gIl97c-0" target="fuknoj8fPmJn_HlXlpeP-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xuIzsQuonJBNvC21Xvo-4" value="同步，发布通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mm-TyVejt9eaW4gIl97c-2">
+          <mxGeometry x="-0.3" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Mm-TyVejt9eaW4gIl97c-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;缓存刷新&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px&quot;&gt;db-cache-refresh&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
           <mxGeometry x="170" y="620" width="120" height="70" as="geometry" />
