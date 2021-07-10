@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-10T07:37:05.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="VjCqnJj17bhdk6JFtn2u" version="14.8.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-07-10T08:48:42.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="pb1szxQ1b3mAbSnc1wZc" version="14.8.5" type="github" pages="7">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2033" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -649,7 +649,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="D9CSbNTe0AgyzVjh2CmW" name="缓存同步刷新逻辑">
-    <mxGraphModel dx="1053" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="VqICbRK8kZ5pyACttgq_-0" />
         <mxCell id="VqICbRK8kZ5pyACttgq_-1" parent="VqICbRK8kZ5pyACttgq_-0" />
@@ -734,22 +734,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kNQq5YUqnynGrqkVMdip-6" value="" style="group" vertex="1" connectable="0" parent="VqICbRK8kZ5pyACttgq_-1">
-          <mxGeometry x="450" y="490" width="260" height="50" as="geometry" />
+          <mxGeometry x="450" y="490" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kNQq5YUqnynGrqkVMdip-1" value="KEY string" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#3700CC;strokeWidth=1;fillColor=#6a00ff;verticalAlign=top;fontColor=#ffffff;" vertex="1" parent="kNQq5YUqnynGrqkVMdip-6">
-          <mxGeometry width="140" height="25" as="geometry" />
+          <mxGeometry width="166.92307692307693" height="25" as="geometry" />
         </mxCell>
         <mxCell id="kNQq5YUqnynGrqkVMdip-2" value="VALUE string" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;verticalAlign=top;fontColor=#ffffff;" vertex="1" parent="kNQq5YUqnynGrqkVMdip-6">
-          <mxGeometry x="140" width="120" height="25" as="geometry" />
+          <mxGeometry x="166.92307692307693" width="143.07692307692307" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="kNQq5YUqnynGrqkVMdip-3" value="缓存类型前缀+业务key" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=top;" vertex="1" parent="kNQq5YUqnynGrqkVMdip-6">
-          <mxGeometry y="25" width="140" height="25" as="geometry" />
+        <mxCell id="kNQq5YUqnynGrqkVMdip-3" value="缓存类型前缀:UPDATETIME" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=top;" vertex="1" parent="kNQq5YUqnynGrqkVMdip-6">
+          <mxGeometry y="25" width="166.92307692307693" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="kNQq5YUqnynGrqkVMdip-4" value="json value" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=top;" vertex="1" parent="kNQq5YUqnynGrqkVMdip-6">
-          <mxGeometry x="140" y="25" width="120" height="25" as="geometry" />
+        <mxCell id="kNQq5YUqnynGrqkVMdip-4" value="时间戳（来源数据库时间)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=top;" vertex="1" parent="kNQq5YUqnynGrqkVMdip-6">
+          <mxGeometry x="166.92307692307693" y="25" width="143.07692307692307" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="PixLaXPILDZQnzMEuPvH-0" value="&lt;h1&gt;缓存设计目标&lt;/h1&gt;&lt;p&gt;缓存同步&lt;/p&gt;&lt;p&gt;1. 要保证数据库和缓存数据一致。全量同步缓存并删除失效数据&lt;/p&gt;&lt;p&gt;2. 增量数据只更新增量部分，不保证数据库和缓存数据一致，把增量部分同步到缓存&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;缓存加载&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;1.如何增量更新&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2.如何保证全量数据和缓存一致&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;sketch=0;verticalAlign=top;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
+        <mxCell id="PixLaXPILDZQnzMEuPvH-0" value="&lt;h1&gt;缓存设计目标&lt;/h1&gt;&lt;p&gt;缓存同步&lt;/p&gt;&lt;p&gt;1. 要保证数据库和缓存数据一致。全量同步缓存并删除失效数据&lt;/p&gt;&lt;p&gt;2. 增量数据只更新增量部分，不保证数据库和缓存数据一致，把增量部分同步到缓存&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;缓存加载&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;1.如何增量更新&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2.如何保证全量数据和缓存一致&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;能标识出正在同步，防止缓存重启了会有问题&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;全量由抽象类统一实现删除多余的key,增量由业务插入和删除（需要修改业务代码）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;sketch=0;verticalAlign=top;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
           <mxGeometry x="400" y="10" width="640" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="JLwc7Wr8GsfuuCfVnfcN-1" value="KEY string" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#3700CC;strokeWidth=1;fillColor=#6a00ff;verticalAlign=top;fontColor=#ffffff;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
+          <mxGeometry x="450" y="580" width="166.92307692307693" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JLwc7Wr8GsfuuCfVnfcN-2" value="VALUE string" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;verticalAlign=top;fontColor=#ffffff;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
+          <mxGeometry x="616.9230769230769" y="580" width="143.07692307692307" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JLwc7Wr8GsfuuCfVnfcN-3" value="全量更新通知" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=top;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
+          <mxGeometry x="450" y="605" width="166.92307692307693" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JLwc7Wr8GsfuuCfVnfcN-4" value="开始执行时间的时间戳" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=top;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
+          <mxGeometry x="616.9230769230769" y="605" width="143.07692307692307" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="JLwc7Wr8GsfuuCfVnfcN-5" value="增量更新通知" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=middle;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
+          <mxGeometry x="450" y="630" width="166.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JLwc7Wr8GsfuuCfVnfcN-6" value="开始执行时间的时间戳，新增的key，删除的key" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=top;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
+          <mxGeometry x="616.92" y="630" width="143.08" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
