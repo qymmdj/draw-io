@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-10T08:48:42.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="pb1szxQ1b3mAbSnc1wZc" version="14.8.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-07-10T08:58:49.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="MfIm9NatscD5rGp-2M0C" version="14.8.5" type="github" pages="7">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2033" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -683,12 +683,11 @@
         <mxCell id="s_kaP2D-99kkr4zUK_fV-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;rounded=0;shadow=0;sketch=0;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
           <mxGeometry x="198.25" y="225" width="73.5" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="kNQq5YUqnynGrqkVMdip-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="VqICbRK8kZ5pyACttgq_-1" target="kNQq5YUqnynGrqkVMdip-3">
+        <mxCell id="kNQq5YUqnynGrqkVMdip-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="VqICbRK8kZ5pyACttgq_-1" target="JLwc7Wr8GsfuuCfVnfcN-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="450" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="380" y="465" />
-              <mxPoint x="380" y="551" />
+              <mxPoint x="380" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -768,6 +767,11 @@
         </mxCell>
         <mxCell id="JLwc7Wr8GsfuuCfVnfcN-6" value="开始执行时间的时间戳，新增的key，删除的key" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;verticalAlign=top;" vertex="1" parent="VqICbRK8kZ5pyACttgq_-1">
           <mxGeometry x="616.92" y="630" width="143.08" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JLwc7Wr8GsfuuCfVnfcN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="VqICbRK8kZ5pyACttgq_-1" source="kNQq5YUqnynGrqkVMdip-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="503" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
