@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T15:03:45.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="bYx90I8ny1C3SQQGymOS" version="14.9.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-07-21T15:06:35.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="UDKvWMwpiO9i_plJlwz3" version="14.9.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -215,7 +215,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nGrFPTuUlTMuZyHNZj8M" name="AMG运行流程-新版">
-    <mxGraphModel dx="2300" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="2080" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-0" />
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-1" parent="K4k3UiwvuYZa4ldBy-CK-0" />
@@ -282,18 +282,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T6EX4ndQjxpaw1tUNo6R-1" style="orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeColor=#EA6B66;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0">
+        <mxCell id="T6EX4ndQjxpaw1tUNo6R-1" style="orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeColor=#EA6B66;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="iZZp3CW2v48UPQBxRc3U-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="109" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="235" />
-              <mxPoint x="400" y="109" />
+              <mxPoint x="290" y="235" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="T6EX4ndQjxpaw1tUNo6R-2" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;流控请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;降级请求&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T6EX4ndQjxpaw1tUNo6R-1">
           <mxGeometry x="0.1949" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="-59" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ne7f0EcJxw9onDfyfVQL-0" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 10.5pt&quot;&gt;管控指令处理&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;cmg-command-proc&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="K4k3UiwvuYZa4ldBy-CK-1" vertex="1">
@@ -308,11 +307,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aOHt_IECmjVsD_4paDal-2" value="&lt;b&gt;发送控制指令通知：&lt;/b&gt;&lt;br&gt;超时设置指令&lt;br&gt;流控指令（app,api,appapi)&lt;br&gt;降级指令(amg,app)&lt;br&gt;服务状态变更指令" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#EA6B66;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="DfWoT8uxtNvW3dQbg5u6-0">
-          <mxGeometry x="0.1628" y="-30" relative="1" as="geometry">
+        <mxCell id="aOHt_IECmjVsD_4paDal-2" value="&lt;b&gt;发送控制指令通知：&lt;/b&gt;&lt;br&gt;超时设置指令&lt;br&gt;流控指令（app,api,appapi)&lt;br&gt;降级指令(amg,app)&lt;br&gt;服务状态变更指令" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#EA6B66;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="DfWoT8uxtNvW3dQbg5u6-0">
+          <mxGeometry x="0.4462" y="-30" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="235" />
-              <mxPoint x="400" y="435" />
+              <mxPoint x="290" y="235" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
