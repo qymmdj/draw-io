@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T15:06:35.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="UDKvWMwpiO9i_plJlwz3" version="14.9.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-07-21T15:15:16.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="CK_zrmSDzCCjxuFPHjDh" version="14.9.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -215,7 +215,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nGrFPTuUlTMuZyHNZj8M" name="AMG运行流程-新版">
-    <mxGraphModel dx="2080" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="2300" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-0" />
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-1" parent="K4k3UiwvuYZa4ldBy-CK-0" />
@@ -248,7 +248,7 @@
             <mxPoint x="3" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkeaj4UKOVZw1k1lpyuP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0080;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="iZZp3CW2v48UPQBxRc3U-1" target="vkeaj4UKOVZw1k1lpyuP-0">
+        <mxCell id="vkeaj4UKOVZw1k1lpyuP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="iZZp3CW2v48UPQBxRc3U-1" target="vkeaj4UKOVZw1k1lpyuP-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="600" y="80" />
@@ -264,7 +264,7 @@
             <mxPoint x="620" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkeaj4UKOVZw1k1lpyuP-1" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF3333;strokeColor=#FF0080;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="04NwbSP2eDD0ZixS5bx1-0" target="iZZp3CW2v48UPQBxRc3U-1">
+        <mxCell id="vkeaj4UKOVZw1k1lpyuP-1" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF3333;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="04NwbSP2eDD0ZixS5bx1-0" target="iZZp3CW2v48UPQBxRc3U-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vkeaj4UKOVZw1k1lpyuP-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vkeaj4UKOVZw1k1lpyuP-1">
@@ -282,7 +282,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T6EX4ndQjxpaw1tUNo6R-1" style="orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeColor=#EA6B66;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="iZZp3CW2v48UPQBxRc3U-0">
+        <mxCell id="T6EX4ndQjxpaw1tUNo6R-1" style="orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="iZZp3CW2v48UPQBxRc3U-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="109" as="targetPoint" />
             <Array as="points">
@@ -290,9 +290,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T6EX4ndQjxpaw1tUNo6R-2" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;流控请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;降级请求&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T6EX4ndQjxpaw1tUNo6R-1">
+        <mxCell id="T6EX4ndQjxpaw1tUNo6R-2" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;流控请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;降级请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;熔断上报&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;容灾切换上报&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;扩缩容反馈&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T6EX4ndQjxpaw1tUNo6R-1">
           <mxGeometry x="0.1949" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="-59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPqxcDyf8xafPEj9mMiZ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;align=left;exitX=-0.008;exitY=0.14;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="iZZp3CW2v48UPQBxRc3U-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="459" y="210" />
+              <mxPoint x="440" y="210" />
+              <mxPoint x="440" y="102" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPqxcDyf8xafPEj9mMiZ-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;故障注入指令&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;扩缩容指令&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="YPqxcDyf8xafPEj9mMiZ-0">
+          <mxGeometry x="0.1808" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ne7f0EcJxw9onDfyfVQL-0" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 10.5pt&quot;&gt;管控指令处理&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;cmg-command-proc&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="K4k3UiwvuYZa4ldBy-CK-1" vertex="1">
@@ -307,7 +322,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aOHt_IECmjVsD_4paDal-2" value="&lt;b&gt;发送控制指令通知：&lt;/b&gt;&lt;br&gt;超时设置指令&lt;br&gt;流控指令（app,api,appapi)&lt;br&gt;降级指令(amg,app)&lt;br&gt;服务状态变更指令" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#EA6B66;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="DfWoT8uxtNvW3dQbg5u6-0">
+        <mxCell id="aOHt_IECmjVsD_4paDal-2" value="&lt;b&gt;发送控制指令通知：&lt;/b&gt;&lt;br&gt;超时设置指令&lt;br&gt;流控指令（app,api,appapi)&lt;br&gt;降级指令(amg,app)&lt;br&gt;服务状态变更指令" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="DfWoT8uxtNvW3dQbg5u6-0">
           <mxGeometry x="0.4462" y="-30" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="290" y="235" />
@@ -322,7 +337,7 @@
           <mxGeometry x="590" y="340" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DfWoT8uxtNvW3dQbg5u6-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;缓存刷新&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-cache&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;service&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="K4k3UiwvuYZa4ldBy-CK-1" vertex="1">
-          <mxGeometry x="230" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yUJtIv4Iyc_Te-_PKTaW-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#FF0080;align=left;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="e6NIbiu215rDa9bhgvBy-0" target="yUJtIv4Iyc_Te-_PKTaW-2">
           <mxGeometry relative="1" as="geometry">
@@ -422,7 +437,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kGaFwdbBIIWb2LQYKGvZ" name="组件交互">
-    <mxGraphModel dx="2088" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="2300" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="QdJT8muC0fyM8iQBunHB-0" />
         <mxCell id="QdJT8muC0fyM8iQBunHB-1" parent="QdJT8muC0fyM8iQBunHB-0" />
