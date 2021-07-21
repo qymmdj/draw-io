@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T14:30:10.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="WARiIAGPj3ANrGFJyfmd" version="14.9.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-07-21T14:30:40.812Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="uy5TBYzoWQHklpErEQwD" version="14.9.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -215,7 +215,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nGrFPTuUlTMuZyHNZj8M" name="AMG运行流程-新版">
-    <mxGraphModel dx="2300" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="2060" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-0" />
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-1" parent="K4k3UiwvuYZa4ldBy-CK-0" />
@@ -248,7 +248,7 @@
             <mxPoint x="-17" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkeaj4UKOVZw1k1lpyuP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#67AB9F;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="iZZp3CW2v48UPQBxRc3U-1" target="vkeaj4UKOVZw1k1lpyuP-0">
+        <mxCell id="vkeaj4UKOVZw1k1lpyuP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0080;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="iZZp3CW2v48UPQBxRc3U-1" target="vkeaj4UKOVZw1k1lpyuP-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="80" />
@@ -264,7 +264,7 @@
             <mxPoint x="620" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkeaj4UKOVZw1k1lpyuP-1" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeColor=#67AB9F;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="iZZp3CW2v48UPQBxRc3U-1">
+        <mxCell id="vkeaj4UKOVZw1k1lpyuP-1" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;fontColor=#FF3333;strokeColor=#FF0080;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="iZZp3CW2v48UPQBxRc3U-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="235" />
