@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T02:17:11.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="4qqJbKDEVoP1C_3JHua4" version="14.9.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-07-21T02:41:18.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="-HYbNlQ9okpNQxnWDOo_" version="14.9.0" type="github" pages="7">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2300" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -66,7 +66,7 @@
         <mxCell id="qbtHAzbWiTw2XCngsW65-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="58FKScHTOD0fjgMbz1a8-2" target="58FKScHTOD0fjgMbz1a8-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="58FKScHTOD0fjgMbz1a8-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;服务调用网关&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-api-gateway&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=1;fillColor=#ffff88;strokeColor=#36393d;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
+        <mxCell id="58FKScHTOD0fjgMbz1a8-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;服务调用网关&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-api-gateway&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;shadow=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
           <mxGeometry x="-300" y="375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5svcY1SSpPLeqzfkWsX5-1" value="" style="edgeStyle=none;curved=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="58FKScHTOD0fjgMbz1a8-7" target="58FKScHTOD0fjgMbz1a8-13" edge="1">
@@ -113,7 +113,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cLjiAWQgn1-5IM3SHc4H-0" value="&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;font face=&quot;times new roman&quot;&gt;管理数据处理&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;cmg&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;-globaldata-proc&lt;br&gt;&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
+        <mxCell id="cLjiAWQgn1-5IM3SHc4H-0" value="&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;font face=&quot;times new roman&quot;&gt;管理数据处理&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;cmg&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;-globaldata-proc&lt;br&gt;&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
           <mxGeometry x="352" y="360" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cLjiAWQgn1-5IM3SHc4H-3" value="记录数据库" style="sketch=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="hdogqXHSBpEaAjrL4_Qm-1" source="cLjiAWQgn1-5IM3SHc4H-1" edge="1">
@@ -207,14 +207,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mm-TyVejt9eaW4gIl97c-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;缓存刷新&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-cache&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;service&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
+        <mxCell id="Mm-TyVejt9eaW4gIl97c-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;缓存刷新&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-cache&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;service&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="hdogqXHSBpEaAjrL4_Qm-1" vertex="1">
           <mxGeometry x="170" y="590" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="H5ks0xH23TNfroaOrBWy" name="微服务拆分">
-    <mxGraphModel dx="1053" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="OC57HQLg-QQ5nuB7Cv97-0" />
         <mxCell id="OC57HQLg-QQ5nuB7Cv97-1" parent="OC57HQLg-QQ5nuB7Cv97-0" />
@@ -269,7 +269,7 @@
         <mxCell id="LLhBq4zjOfd1W-s7-cfd-8" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;日志搜索&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;base-log-query&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
           <mxGeometry x="560" y="300" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="M58M7HaOuuOlmS8-7J4D-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;缓存刷新&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px&quot;&gt;db-cache-refresh&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
+        <mxCell id="M58M7HaOuuOlmS8-7J4D-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;缓存刷新&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-cache&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;service&lt;/font&gt;&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
           <mxGeometry x="220" y="150" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="M58M7HaOuuOlmS8-7J4D-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;规范定义的&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;微服务&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
