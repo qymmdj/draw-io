@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T15:16:04.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="37SfgMxH-S-v4EE6bts2" version="14.9.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-07-21T15:16:22.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="ifxQ4-MoslGBMeySEDEQ" version="14.9.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -248,11 +248,10 @@
             <mxPoint x="3" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkeaj4UKOVZw1k1lpyuP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="iZZp3CW2v48UPQBxRc3U-1" target="vkeaj4UKOVZw1k1lpyuP-0">
+        <mxCell id="vkeaj4UKOVZw1k1lpyuP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=left;exitX=0.571;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="iZZp3CW2v48UPQBxRc3U-1" target="vkeaj4UKOVZw1k1lpyuP-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="80" />
-              <mxPoint x="600" y="35" />
+              <mxPoint x="530" y="35" />
             </Array>
           </mxGeometry>
         </mxCell>
