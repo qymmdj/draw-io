@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T07:15:21.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="61ZrZJu98rOci5BDeXWN" version="14.9.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-07-21T07:16:25.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="yBAxq5hqNUvs1rH1CoDg" version="14.9.0" type="github" pages="7">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2104" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -226,13 +226,13 @@
           <mxGeometry x="30" width="490" height="230" as="geometry" />
         </mxCell>
         <mxCell id="4jJnBZCPFhitQu8RjMwX-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;服务调用网关&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-api-gateway&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
-          <mxGeometry x="70" y="50" width="110" height="80" as="geometry" />
+          <mxGeometry x="40" y="35" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4jJnBZCPFhitQu8RjMwX-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;号码归属查询&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;amg-prov-query&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
-          <mxGeometry x="220" y="50" width="110" height="80" as="geometry" />
+          <mxGeometry x="170" y="40" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4jJnBZCPFhitQu8RjMwX-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;管理数据处理&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;微服务&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
-          <mxGeometry x="370" y="50" width="130" height="80" as="geometry" />
+        <mxCell id="4jJnBZCPFhitQu8RjMwX-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;管理数据处理&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;微服务&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;-globaldata-proc&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
+          <mxGeometry x="300" y="42.5" width="170" height="75" as="geometry" />
         </mxCell>
         <mxCell id="4jJnBZCPFhitQu8RjMwX-4" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;管理数据处理&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;cmg&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;-globaldata-proc&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
           <mxGeometry x="70" y="300" width="120" height="80" as="geometry" />
@@ -271,7 +271,7 @@
           <mxGeometry x="560" y="300" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M58M7HaOuuOlmS8-7J4D-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;缓存微服务&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-cache&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;service&lt;/font&gt;&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;" parent="OC57HQLg-QQ5nuB7Cv97-1" vertex="1">
-          <mxGeometry x="220" y="150" width="120" height="70" as="geometry" />
+          <mxGeometry x="215" y="150" width="115" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
