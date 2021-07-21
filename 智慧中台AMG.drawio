@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T14:12:49.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="lwH3THRoyBhNCIqzE5dM" version="14.9.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-07-21T14:16:56.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="jkNVR9POtXcwQfKumWOY" version="14.9.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -266,7 +266,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aOHt_IECmjVsD_4paDal-2" value="&lt;b&gt;控制通知：&lt;/b&gt;&lt;br&gt;超时设置指令&lt;br&gt;流控指令（app,api,appapi)&lt;br&gt;降级指令(amg,app)&lt;br&gt;服务状态变更指令" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;align=left;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="04NwbSP2eDD0ZixS5bx1-0" target="DfWoT8uxtNvW3dQbg5u6-0">
+        <mxCell id="aOHt_IECmjVsD_4paDal-2" value="&lt;b&gt;发送控制指令通知：&lt;/b&gt;&lt;br&gt;超时设置指令&lt;br&gt;流控指令（app,api,appapi)&lt;br&gt;降级指令(amg,app)&lt;br&gt;服务状态变更指令" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;align=left;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="04NwbSP2eDD0ZixS5bx1-0" target="DfWoT8uxtNvW3dQbg5u6-0">
           <mxGeometry x="-0.5571" y="-30" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="810" y="235" />
