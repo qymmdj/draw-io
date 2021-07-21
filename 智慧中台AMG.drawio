@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T03:12:16.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="kaJKdLskv2hzoFIhTIkM" version="14.9.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-07-21T03:18:31.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="edd95rbflQHk2C3MLQ3D" version="14.9.0" type="github" pages="7">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2300" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -130,7 +130,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-EyPziNG2Blq2eSsAo_-3" value="管理质量通知，参考集团规范&lt;br&gt;涉及7个接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M-EyPziNG2Blq2eSsAo_-2">
+        <mxCell id="M-EyPziNG2Blq2eSsAo_-3" value="管理指令通知，参考集团规范&lt;br&gt;涉及7个接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M-EyPziNG2Blq2eSsAo_-2">
           <mxGeometry x="-0.4355" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
