@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T03:09:53.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="-ix5R2yvKSmJWQa8AarG" version="14.9.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-07-22T03:20:54.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="i7KmDC0mobU4zBb3c6Eu" version="14.9.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -322,11 +322,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aOHt_IECmjVsD_4paDal-2" value="&lt;b&gt;发送控制指令通知，如下：&lt;/b&gt;&lt;br&gt;超时设置指令&lt;br&gt;流控指令（app,api,appapi)&lt;br&gt;降级指令(amg,app)&lt;br&gt;服务状态变更指令" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="DfWoT8uxtNvW3dQbg5u6-0">
+        <mxCell id="aOHt_IECmjVsD_4paDal-2" value="&lt;b&gt;发送控制指令通知，如下：&lt;/b&gt;&lt;br&gt;超时设置指令&lt;br&gt;流控指令（app,api,appapi)&lt;br&gt;降级指令(amg,app)&lt;br&gt;服务状态变更指令" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="DfWoT8uxtNvW3dQbg5u6-0">
           <mxGeometry x="0.4462" y="-30" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="290" y="235" />
-            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -337,7 +334,7 @@
           <mxGeometry x="650" y="340" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DfWoT8uxtNvW3dQbg5u6-0" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5pt&quot;&gt;缓存刷新&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;amg-cache&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5000pt&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;service&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="K4k3UiwvuYZa4ldBy-CK-1" vertex="1">
-          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yUJtIv4Iyc_Te-_PKTaW-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#FF0080;align=left;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="e6NIbiu215rDa9bhgvBy-0" target="yUJtIv4Iyc_Te-_PKTaW-2">
           <mxGeometry relative="1" as="geometry">
@@ -365,13 +362,13 @@
         <mxCell id="DUk9Kvq8BUuxUmYDQYik-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;align=left;strokeColor=#67AB9F;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="X8pvA67FMsWX2umZKZ0B-0" target="DUk9Kvq8BUuxUmYDQYik-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X8pvA67FMsWX2umZKZ0B-0" value="Filebeat" style="whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;" vertex="1" parent="K4k3UiwvuYZa4ldBy-CK-1">
+        <mxCell id="X8pvA67FMsWX2umZKZ0B-0" value="Filebeat" style="whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="K4k3UiwvuYZa4ldBy-CK-1">
           <mxGeometry x="170" y="569" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HjUN0BZC4hDAej9bhx0X-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;align=left;strokeColor=#67AB9F;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="DUk9Kvq8BUuxUmYDQYik-0" target="HjUN0BZC4hDAej9bhx0X-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DUk9Kvq8BUuxUmYDQYik-0" value="ES" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;shadow=1;strokeWidth=1;" vertex="1" parent="K4k3UiwvuYZa4ldBy-CK-1">
+        <mxCell id="DUk9Kvq8BUuxUmYDQYik-0" value="ES" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;shadow=1;strokeWidth=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="K4k3UiwvuYZa4ldBy-CK-1">
           <mxGeometry x="350" y="574" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HjUN0BZC4hDAej9bhx0X-0" value="集团kaifka" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="K4k3UiwvuYZa4ldBy-CK-1">
