@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T06:39:12.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="WiRuiALzBYVvfHi6Kbhf" version="14.9.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-07-23T09:04:48.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36 Edg/91.0.864.71" etag="zmbjPDRFrOCzDCZLpPMh" version="14.9.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="微服务调用流程">
     <mxGraphModel dx="2300" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -219,6 +219,12 @@
       <root>
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-0" />
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-1" parent="K4k3UiwvuYZa4ldBy-CK-0" />
+        <mxCell id="oZ_XfIYfdvNjpS_yMB2g-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="oZ_XfIYfdvNjpS_yMB2g-0" target="iZZp3CW2v48UPQBxRc3U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZ_XfIYfdvNjpS_yMB2g-0" value="operator" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=8;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="K4k3UiwvuYZa4ldBy-CK-1">
+          <mxGeometry x="490" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="rpvxPnHDwKuPXuIR7tyR-0" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="K4k3UiwvuYZa4ldBy-CK-1" source="iZZp3CW2v48UPQBxRc3U-0" target="iZZp3CW2v48UPQBxRc3U-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -234,9 +240,6 @@
         </mxCell>
         <mxCell id="iZZp3CW2v48UPQBxRc3U-0" value="&lt;h1&gt;CMG&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=8;align=center;" parent="K4k3UiwvuYZa4ldBy-CK-1" vertex="1">
           <mxGeometry x="230" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ne7f0EcJxw9onDfyfVQL-1" value="llist watch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;startArrow=classic;startFill=1;curved=1;" parent="K4k3UiwvuYZa4ldBy-CK-1" source="iZZp3CW2v48UPQBxRc3U-1" target="Ne7f0EcJxw9onDfyfVQL-0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L1bmXLuEcJlHBq1JjTbG-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" parent="K4k3UiwvuYZa4ldBy-CK-1" target="04NwbSP2eDD0ZixS5bx1-0" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -323,6 +326,9 @@
           <mxGeometry x="0.1808" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oZ_XfIYfdvNjpS_yMB2g-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="K4k3UiwvuYZa4ldBy-CK-1" source="Ne7f0EcJxw9onDfyfVQL-0" target="oZ_XfIYfdvNjpS_yMB2g-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ne7f0EcJxw9onDfyfVQL-0" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 10.5pt&quot;&gt;管控指令处理&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;cmg-command-proc&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;shadow=1;glass=0;sketch=0;horizontal=1;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="K4k3UiwvuYZa4ldBy-CK-1" vertex="1">
           <mxGeometry x="460" y="210" width="120" height="50" as="geometry" />
