@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-01T07:23:12.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.84" etag="MPobguPTFNe04tOQmFrS" version="15.0.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-09-07T11:58:33.655Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" etag="nbo9qGeLbXYUh4v6LVE3" version="15.1.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="磐基网格功能">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -11,7 +11,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nGrFPTuUlTMuZyHNZj8M" name="AMG运行流程-新版">
-    <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="2300" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-0" />
         <mxCell id="K4k3UiwvuYZa4ldBy-CK-1" parent="K4k3UiwvuYZa4ldBy-CK-0" />
@@ -305,7 +305,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H5ks0xH23TNfroaOrBWy" name="微服务拆分">
-    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="OC57HQLg-QQ5nuB7Cv97-0" />
         <mxCell id="OC57HQLg-QQ5nuB7Cv97-1" parent="OC57HQLg-QQ5nuB7Cv97-0" />
@@ -478,7 +478,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9ZgzMvNIV9MdenUca18i" name="CMG-AMG交互流程">
-    <mxGraphModel dx="1108" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="Xiy6iTxS2phmgfGudgAN-0" />
         <mxCell id="Xiy6iTxS2phmgfGudgAN-1" parent="Xiy6iTxS2phmgfGudgAN-0" />
@@ -497,7 +497,7 @@
         <mxCell id="Wxs-p3ua-kThF9REnJB9-14" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Xiy6iTxS2phmgfGudgAN-1" source="fI16srCDXy3ZMXBZby-6-0" target="Wxs-p3ua-kThF9REnJB9-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fI16srCDXy3ZMXBZby-6-0" value="Envoy网关" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Xiy6iTxS2phmgfGudgAN-1" vertex="1">
+        <mxCell id="fI16srCDXy3ZMXBZby-6-0" value="Envoy网关&lt;br&gt;19001" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Xiy6iTxS2phmgfGudgAN-1" vertex="1">
           <mxGeometry x="180" y="40" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Wxs-p3ua-kThF9REnJB9-8" value="&lt;div&gt;&lt;/div&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;服务网格-&amp;gt;&lt;/span&gt;路由策略&lt;/b&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;其它AMG region对应的外部服务&lt;/span&gt;&lt;/div&gt;" style="endArrow=none;startArrow=classic;html=1;endFill=0;dashed=1;" parent="Xiy6iTxS2phmgfGudgAN-1" edge="1">
