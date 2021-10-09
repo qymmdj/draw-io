@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T03:46:04.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="Hl07Pt_XJkRAFxx49BpR" version="15.5.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-10-09T03:47:31.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="14AogfWAMLj42UkM1f0r" version="15.5.0" type="github" pages="9">
   <diagram id="7QcvH00Ai8PCEHtqAPEW" name="磐基网格功能">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="1">
       <root>
@@ -641,16 +641,17 @@
         <mxCell id="DfNfZrt7AIXCKAgTbiaM-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" parent="eoFvazOYoVXe5MVRfVET-1" source="DfNfZrt7AIXCKAgTbiaM-25" target="DfNfZrt7AIXCKAgTbiaM-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DfNfZrt7AIXCKAgTbiaM-25" value="目标服务SLA控制" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="eoFvazOYoVXe5MVRfVET-1" vertex="1">
+        <mxCell id="DfNfZrt7AIXCKAgTbiaM-25" value="服务熔断&lt;br&gt;ProviderBreakerSlot" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="eoFvazOYoVXe5MVRfVET-1" vertex="1">
           <mxGeometry x="-575" y="-312.5" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="DfNfZrt7AIXCKAgTbiaM-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;" parent="eoFvazOYoVXe5MVRfVET-1" source="DfNfZrt7AIXCKAgTbiaM-26" target="DfNfZrt7AIXCKAgTbiaM-34" edge="1">
+        <mxCell id="DfNfZrt7AIXCKAgTbiaM-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="eoFvazOYoVXe5MVRfVET-1" source="DfNfZrt7AIXCKAgTbiaM-26" target="DfNfZrt7AIXCKAgTbiaM-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-520" y="-130" as="targetPoint" />
+            <mxPoint x="-450" y="-227" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DfNfZrt7AIXCKAgTbiaM-26" value="目标服务流量控制" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="eoFvazOYoVXe5MVRfVET-1" vertex="1">
-          <mxGeometry x="-575" y="-245" width="110" height="35" as="geometry" />
+        <mxCell id="DfNfZrt7AIXCKAgTbiaM-26" value="目标服务流量控制&lt;br&gt;ProviderApiRateLimitSlot" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="eoFvazOYoVXe5MVRfVET-1" vertex="1">
+          <mxGeometry x="-590" y="-245" width="140" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DfNfZrt7AIXCKAgTbiaM-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" parent="eoFvazOYoVXe5MVRfVET-1" source="DfNfZrt7AIXCKAgTbiaM-34" target="DfNfZrt7AIXCKAgTbiaM-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
