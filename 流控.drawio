@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T08:36:44.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="ewx1-TtTS4rjniKLGavb" version="15.5.9" type="github" pages="3">
-  <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="功能架构">
+<mxfile host="app.diagrams.net" modified="2021-10-27T08:51:27.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="xgBO78DEYryQ7fUzunde" version="15.5.9" type="github" pages="3">
+  <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -61,7 +61,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="fbQm1llPgzJf8hFarM7H" name="部署运行架构">
+  <diagram id="fbQm1llPgzJf8hFarM7H" name="部署运行架构-物理">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="NP_HojyU4tkYbMgiwP5o-0" />
@@ -184,6 +184,12 @@
         </mxCell>
         <mxCell id="haD4hVW923PeyUNKSnMZ-1" value="资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" vertex="1" parent="2hIdPUoKE1bXBVzkzfMO-1">
           <mxGeometry x="90" y="115" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fLxgYDN2d__sk4BN7UGc-0" value="服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" vertex="1" parent="2hIdPUoKE1bXBVzkzfMO-1">
+          <mxGeometry x="180" y="54" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fLxgYDN2d__sk4BN7UGc-1" value="组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=12;" vertex="1" parent="2hIdPUoKE1bXBVzkzfMO-1">
+          <mxGeometry x="180" y="172" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
