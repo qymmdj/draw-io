@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T11:34:00.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="YjXshz4ScQQqbEgn_PR4" version="15.5.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-27T11:54:19.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="dw34dSXzLKeuLlfXLPdI" version="15.5.9" type="github" pages="3">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="1320" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
           <mxGeometry x="162" y="360" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OK3X0le_muq3t4KpYH8Y-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=13;fontColor=#CC00CC;gradientColor=none;align=center;verticalAlign=middle;" vertex="1" parent="2hIdPUoKE1bXBVzkzfMO-1">
-          <mxGeometry x="140" y="150" width="20" height="220" as="geometry" />
+          <mxGeometry x="140" y="150" width="20" height="260" as="geometry" />
         </mxCell>
         <mxCell id="OK3X0le_muq3t4KpYH8Y-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=13;fontColor=#CC00CC;gradientColor=none;align=center;verticalAlign=middle;" vertex="1" parent="2hIdPUoKE1bXBVzkzfMO-1">
           <mxGeometry x="214" y="109" width="36" height="81" as="geometry" />
@@ -286,6 +286,9 @@
         </mxCell>
         <mxCell id="OK3X0le_muq3t4KpYH8Y-42" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;查询（按&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 13px&quot;&gt;Group&lt;/span&gt;)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;" vertex="1" parent="2hIdPUoKE1bXBVzkzfMO-1">
           <mxGeometry x="315.25" y="94" width="104.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OK3X0le_muq3t4KpYH8Y-44" value="权限控制" style="text;whiteSpace=wrap;html=1;fontSize=13;fontColor=#CC00CC;" vertex="1" parent="2hIdPUoKE1bXBVzkzfMO-1">
+          <mxGeometry x="162" y="395" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
