@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T06:15:09.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="vuJf-9vCFip67-F0yIs5" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-27T07:33:14.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="zHfMSLs96g1eCi-ZLNL0" version="15.5.9" type="github" pages="2">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="功能架构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -66,26 +66,32 @@
       <root>
         <mxCell id="NP_HojyU4tkYbMgiwP5o-0" />
         <mxCell id="NP_HojyU4tkYbMgiwP5o-1" parent="NP_HojyU4tkYbMgiwP5o-0" />
+        <mxCell id="6_ZzpwJ5OL2XMzkVOFPA-0" value="磐基云" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=14;gradientColor=none;verticalAlign=top;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
+          <mxGeometry x="140" y="40" width="340" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="NyyIcxrxnfV0I-4X1t5z-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="NP_HojyU4tkYbMgiwP5o-1" source="9xRCl8ZjX-lUkDARdpu1-0" target="6RguTDdiBsKrD8jDMWTJ-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9xRCl8ZjX-lUkDARdpu1-0" value="流程工厂-WEB" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
+        <mxCell id="9xRCl8ZjX-lUkDARdpu1-0" value="流控工厂-WEB" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
           <mxGeometry x="187" y="80" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NyyIcxrxnfV0I-4X1t5z-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="NP_HojyU4tkYbMgiwP5o-1" source="6RguTDdiBsKrD8jDMWTJ-0" target="aEl03PHpY1SfFa9Gt5Uz-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6RguTDdiBsKrD8jDMWTJ-0" value="流程工厂-服务" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
+        <mxCell id="6RguTDdiBsKrD8jDMWTJ-0" value="流控工厂-服务" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
           <mxGeometry x="187" y="170" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aEl03PHpY1SfFa9Gt5Uz-0" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=1;fontSize=14;gradientColor=none;verticalAlign=top;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
           <mxGeometry x="212" y="260" width="60" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NyyIcxrxnfV0I-4X1t5z-0" value="流程工厂-WEB" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
-          <mxGeometry x="650" y="80" width="110" height="30" as="geometry" />
+          <mxGeometry x="620" y="80" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y7tlC06m8-OzNRWvH6vx-0" value="&lt;b&gt;....&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
           <mxGeometry x="330" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ZzpwJ5OL2XMzkVOFPA-1" value="..." style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="NP_HojyU4tkYbMgiwP5o-1">
+          <mxGeometry x="330" y="170" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
