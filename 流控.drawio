@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T02:30:09.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" version="15.5.9" etag="KymgrmTySikQA4ChZkoA" type="github"><diagram id="oLGI9z6a4HBIK8-N9Z7Y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-27T03:03:00.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="FnDX7UthWgtnfc33iCta" version="15.5.9" type="github">
+  <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="部署运行架构">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sBp065pm-CVBf1uHkQzi-4" value="一级开发、运营、管理节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="10" width="570" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sBp065pm-CVBf1uHkQzi-1" value="APP工厂" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sBp065pm-CVBf1uHkQzi-5" value="流程控制" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sBp065pm-CVBf1uHkQzi-6" value="流控配置" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sBp065pm-CVBf1uHkQzi-7" value="运营监控" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sBp065pm-CVBf1uHkQzi-8" value="统一日志" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sBp065pm-CVBf1uHkQzi-11" value="大屏" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sBp065pm-CVBf1uHkQzi-12" value="页面配置" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sBp065pm-CVBf1uHkQzi-13" value="权限" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
