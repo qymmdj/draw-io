@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T08:30:34.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="eUrz-kbH6I3NfwvSPyCI" version="15.5.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-28T08:32:10.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="My1ujgpa4TzPwmdhCBEx" version="15.5.9" type="github" pages="3">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -146,14 +146,6 @@
         </mxCell>
         <mxCell id="Mo_kTadvGA1qFEUCFDDB-5" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;rounded=1;shadow=0;gradientColor=none;" parent="NP_HojyU4tkYbMgiwP5o-1" vertex="1">
           <mxGeometry x="520" y="410" width="50" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="Mo_kTadvGA1qFEUCFDDB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="NP_HojyU4tkYbMgiwP5o-1" source="Kbqe0YGDjtKb_5VJARRd-1" target="Mo_kTadvGA1qFEUCFDDB-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aF4toXZxpPaI2YPfsHAH-0" value="流控json" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" parent="Mo_kTadvGA1qFEUCFDDB-10" vertex="1" connectable="0">
-          <mxGeometry x="-0.1614" y="21" relative="1" as="geometry">
-            <mxPoint y="-26" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="N9UMVpNTBeUmp2C19hCg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="NP_HojyU4tkYbMgiwP5o-1" target="s3MKGjqLSDfwih5t7KVQ-0">
           <mxGeometry relative="1" as="geometry">
