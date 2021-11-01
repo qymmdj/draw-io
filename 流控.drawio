@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T08:11:57.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="94_Bqi9V3beaVThbzb7-" version="15.6.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-01T08:12:56.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="RRDqmNc1GuPXDf-3a9w0" version="15.6.3" type="github" pages="3">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
         <mxCell id="N9UMVpNTBeUmp2C19hCg-0" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;rounded=1;shadow=0;" parent="NP_HojyU4tkYbMgiwP5o-1" vertex="1">
           <mxGeometry x="710" y="401" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N9UMVpNTBeUmp2C19hCg-8" value="会议纪要:&lt;br&gt;1：由各省自己管控发布：流控引擎提供接口（或界面）,基于流控引擎提供界面?&lt;br&gt;2：配置、菜单、流控数据发布：sitech、神马、飞度协同&lt;br&gt;3：新版json、LIST类型&lt;br&gt;4：权限（低优先级）&lt;br&gt;&lt;br&gt;&lt;br&gt;1：LIST类型（形成方案，包括前端、后端、流控引擎）&lt;br&gt;2：配置数据以json离线发布&lt;br&gt;3：资源申请清单尽快提供" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="NP_HojyU4tkYbMgiwP5o-1" vertex="1">
+        <mxCell id="N9UMVpNTBeUmp2C19hCg-8" value="会议纪要:&lt;br&gt;1：由各省自己管控发布：流控引擎提供接口（或界面）,基于流控引擎提供界面?&lt;br&gt;2：配置、菜单、流控数据发布：sitech、神马、飞度协同&lt;br&gt;3：新版json、LIST类型&lt;br&gt;4：权限（低优先级）&lt;br&gt;&lt;br&gt;2021/11/1&lt;br&gt;1：LIST类型（形成方案，包括前端、后端、流控引擎）&lt;br&gt;2：配置数据以json离线发布&lt;br&gt;3：资源申请清单尽快提供(明天上午" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="NP_HojyU4tkYbMgiwP5o-1" vertex="1">
           <mxGeometry x="990" y="260" width="570" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hHp_MqgGN-fuvEy7Ukvl-0" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;rounded=1;shadow=0;gradientColor=none;" parent="NP_HojyU4tkYbMgiwP5o-1" vertex="1">
