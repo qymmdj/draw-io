@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T10:41:36.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="NjFcatjdos6r-ax5Iy5Z" version="15.8.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-30T11:03:32.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="zdnkeXQuEHgW_MlsZmVB" version="15.8.6" type="github" pages="7">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7OookgQmFwPMR2R4jh_X" name="权限设计">
-    <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="1848" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="2hIdPUoKE1bXBVzkzfMO-0" />
         <mxCell id="2hIdPUoKE1bXBVzkzfMO-1" parent="2hIdPUoKE1bXBVzkzfMO-0" />
@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R6JmqC_NGcPAg3zRaIy5" name="部署架构-12月底">
-    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CxBOyggLdA0DiXZsixGQ-0" />
         <mxCell id="CxBOyggLdA0DiXZsixGQ-1" parent="CxBOyggLdA0DiXZsixGQ-0" />
@@ -760,6 +760,85 @@
         </mxCell>
         <mxCell id="-ghV1nLZhLrZJWXKEO55-92" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;rounded=1;shadow=1;labelBackgroundColor=default;labelBorderColor=none;fontFamily=Times New Roman;" vertex="1" parent="CxBOyggLdA0DiXZsixGQ-1">
           <mxGeometry x="628.4999999999999" y="554" width="33" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NlnpglixuvBR748IbBFu" name="物理部署架构">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="scAd58_D4XFcCs6EPtxb-0" />
+        <mxCell id="scAd58_D4XFcCs6EPtxb-1" parent="scAd58_D4XFcCs6EPtxb-0" />
+        <mxCell id="BksArtJaqPXPRjaK5Df9-0" value="&lt;b&gt;一级磐基资源池&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;verticalAlign=top;fillColor=#ffff88;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="100" y="70" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-1" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 6px;&quot;&gt;一级低代码平台（开发态）&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=6;gradientColor=none;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="140" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-2" value="&lt;b&gt;二级&lt;/b&gt;&lt;b&gt;四川&lt;/b&gt;&lt;b&gt;磐基资源池&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;verticalAlign=top;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="450" y="80" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-3" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9px;&quot;&gt;二级低代码平台&lt;br style=&quot;font-size: 9px;&quot;&gt;（开发+运行态）&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=9;gradientColor=none;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="490" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-4" value="&lt;b&gt;&lt;br&gt;二级黑龙江集中化&lt;/b&gt;&lt;b&gt;资源池&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;verticalAlign=top;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="30" y="425" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-5" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9px;&quot;&gt;二级低代码平台&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9px;&quot;&gt;（开发+运行态）&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=9;gradientColor=none;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="70" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-6" value="&lt;b&gt;&lt;br&gt;二级吉林集中化&lt;/b&gt;&lt;b&gt;资源池&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;verticalAlign=top;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="280" y="425" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-7" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;二级低代码平台&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;（开发+运行态）&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=8;gradientColor=none;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="320" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-20" value="" style="shape=mxgraph.cisco.routers.isci_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="420" y="135" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-25" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="scAd58_D4XFcCs6EPtxb-1" source="cuYnLHRk5zLlFNwp068M-21" target="cuYnLHRk5zLlFNwp068M-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="scAd58_D4XFcCs6EPtxb-1" source="cuYnLHRk5zLlFNwp068M-21" target="cuYnLHRk5zLlFNwp068M-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="160" />
+              <mxPoint x="390" y="310" />
+              <mxPoint x="640" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-21" value="" style="shape=mxgraph.cisco.routers.isci_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="280" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-22" value="" style="shape=mxgraph.cisco.routers.isci_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="360" y="400" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-23" value="" style="shape=mxgraph.cisco.routers.isci_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="130" y="390" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-27" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;startArrow=classic;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="scAd58_D4XFcCs6EPtxb-1" source="cuYnLHRk5zLlFNwp068M-24" target="cuYnLHRk5zLlFNwp068M-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="scAd58_D4XFcCs6EPtxb-1" source="cuYnLHRk5zLlFNwp068M-24" target="cuYnLHRk5zLlFNwp068M-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-24" value="" style="shape=mxgraph.cisco.routers.isci_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="160" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-30" value="&lt;b&gt;&lt;br&gt;二级吉林集中化&lt;/b&gt;&lt;b&gt;资源池&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;verticalAlign=top;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="530" y="430" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-31" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;二级低代码平台&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;（开发+运行态）&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=8;gradientColor=none;strokeColor=none;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="570" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cuYnLHRk5zLlFNwp068M-32" value="" style="shape=mxgraph.cisco.routers.isci_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="scAd58_D4XFcCs6EPtxb-1">
+          <mxGeometry x="610" y="400" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
