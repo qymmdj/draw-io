@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T01:25:52.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="G3Ub49xsoAVIGhHMPDjV" version="15.8.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-01T01:33:58.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="9CNlnfrrkOaJXtPS7igQ" version="15.8.7" type="github" pages="7">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -717,7 +717,7 @@
           <mxGeometry x="155.75" y="1020" width="532.75" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-ghV1nLZhLrZJWXKEO55-67" value="EP" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="CxBOyggLdA0DiXZsixGQ-1" vertex="1">
-          <mxGeometry x="490" y="1040" width="169.5" height="70" as="geometry" />
+          <mxGeometry x="500" y="1040" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-ghV1nLZhLrZJWXKEO55-68" value="开发态能力" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="CxBOyggLdA0DiXZsixGQ-1" vertex="1">
           <mxGeometry x="186" y="1040" width="162.5" height="70" as="geometry" />
@@ -832,7 +832,7 @@
           <mxGeometry x="160" y="220" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cuYnLHRk5zLlFNwp068M-30" value="&lt;b&gt;&lt;br&gt;大音省内资源池&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=14;verticalAlign=top;fillColor=#e1d5e7;strokeColor=none;" parent="scAd58_D4XFcCs6EPtxb-1" vertex="1">
-          <mxGeometry x="530" y="425" width="220" height="160" as="geometry" />
+          <mxGeometry x="530" y="425" width="210" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cuYnLHRk5zLlFNwp068M-31" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;二级低代码平台&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;（开发+运行态）&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Times New Roman;fontSize=8;gradientColor=none;strokeColor=none;" parent="scAd58_D4XFcCs6EPtxb-1" vertex="1">
           <mxGeometry x="570" y="490" width="120" height="80" as="geometry" />
