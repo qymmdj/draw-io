@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T10:54:42.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="uYTWmVfAnX6A0EGGkdtL" version="15.8.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-01T10:55:46.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="GheQm3_EzGfYNi0zRllI" version="15.8.7" type="github" pages="8">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -899,6 +899,9 @@
             <mxPoint x="265" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sZTqvxaczfLuT-dMIU3Q-10" value="组件&lt;br&gt;发布" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="En62j66gYRC_EiW9AkI2-1" source="jLLmEEbgW7DHYtLaFQJZ-0" target="htY3zZwg25abRMs5xFfh-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jLLmEEbgW7DHYtLaFQJZ-0" value="非度开发态门户" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;gradientColor=#b3b3b3;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
           <mxGeometry x="220" y="123.75" width="90" height="62.5" as="geometry" />
         </mxCell>
@@ -913,7 +916,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="htY3zZwg25abRMs5xFfh-0" value="神马需管" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;shadow=1;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
-          <mxGeometry x="373.5" y="123.75" width="80" height="66.25" as="geometry" />
+          <mxGeometry x="373.5" y="121.88" width="80" height="66.25" as="geometry" />
         </mxCell>
         <mxCell id="MbQa9fJaOUiC2clvxstE-1" value="APP工厂" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=12;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
           <mxGeometry x="180" y="307" width="90" height="30" as="geometry" />
