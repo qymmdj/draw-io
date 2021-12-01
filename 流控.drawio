@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T10:48:57.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="rI-R9FxobWCvyyp_43xs" version="15.8.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-01T10:54:42.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="uYTWmVfAnX6A0EGGkdtL" version="15.8.7" type="github" pages="8">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -844,7 +844,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SiobWWZfLbzQbs-Wo1Jf" name="集成架构">
-    <mxGraphModel dx="889" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1129" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="En62j66gYRC_EiW9AkI2-0" />
         <mxCell id="En62j66gYRC_EiW9AkI2-1" parent="En62j66gYRC_EiW9AkI2-0" />
@@ -927,8 +927,8 @@
           <mxGeometry x="0.2482" relative="1" as="geometry">
             <mxPoint x="580" y="420" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="571" y="440" />
-              <mxPoint x="605" y="440" />
+              <mxPoint x="571" y="450" />
+              <mxPoint x="605" y="450" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -956,7 +956,7 @@
         <mxCell id="sZTqvxaczfLuT-dMIU3Q-2" value="日志上传进程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=12;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
           <mxGeometry x="560" y="510" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sZTqvxaczfLuT-dMIU3Q-9" value="组件发布消息" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;exitX=0.36;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="En62j66gYRC_EiW9AkI2-1" source="2-fJDnXL6K1SpAREVf_n-0" target="p_JrLtFjQOZSsdlsvnKS-6">
+        <mxCell id="sZTqvxaczfLuT-dMIU3Q-9" value="组件发布消息" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;exitX=0.41;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="En62j66gYRC_EiW9AkI2-1" source="2-fJDnXL6K1SpAREVf_n-0" target="p_JrLtFjQOZSsdlsvnKS-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
