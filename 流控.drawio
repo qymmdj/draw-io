@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T11:00:26.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="a1uQ5dS3N0TKU0sWPggj" version="15.8.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-01T11:01:48.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="KURhLc-Jz688GnwGuoEf" version="15.8.7" type="github" pages="8">
   <diagram id="oLGI9z6a4HBIK8-N9Z7Y" name="逻辑架构">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -854,7 +854,7 @@
         <mxCell id="p_JrLtFjQOZSsdlsvnKS-14" value="&lt;font size=&quot;1&quot;&gt;流控引擎&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=12;fontColor=#000000;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
           <mxGeometry x="324" y="592" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p_JrLtFjQOZSsdlsvnKS-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;shadow=1;verticalAlign=middle;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
+        <mxCell id="p_JrLtFjQOZSsdlsvnKS-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;shadow=1;verticalAlign=middle;fontSize=9;align=center;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
           <mxGeometry x="410" y="490" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sZTqvxaczfLuT-dMIU3Q-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="En62j66gYRC_EiW9AkI2-1" source="p_JrLtFjQOZSsdlsvnKS-6" target="p_JrLtFjQOZSsdlsvnKS-14">
@@ -862,7 +862,7 @@
             <mxPoint x="350" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p_JrLtFjQOZSsdlsvnKS-6" value="组件发布进程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=12;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
+        <mxCell id="p_JrLtFjQOZSsdlsvnKS-6" value="组件发布进程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=12;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
           <mxGeometry x="430" y="510" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VcQ23h0H1Gsfd5RVYyFy-0" value="" style="endArrow=none;html=1;rounded=0;fontSize=11;fontColor=#000000;strokeColor=#A50040;fillColor=#d80073;dashed=1;strokeWidth=2;" edge="1" parent="En62j66gYRC_EiW9AkI2-1">
@@ -949,7 +949,7 @@
         <mxCell id="sZTqvxaczfLuT-dMIU3Q-13" value="日志消息" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;" edge="1" parent="En62j66gYRC_EiW9AkI2-1" source="sZTqvxaczfLuT-dMIU3Q-2" target="2-fJDnXL6K1SpAREVf_n-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sZTqvxaczfLuT-dMIU3Q-2" value="日志上传进程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffff88;strokeColor=#36393d;fontSize=12;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
+        <mxCell id="sZTqvxaczfLuT-dMIU3Q-2" value="日志上传进程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=12;" vertex="1" parent="En62j66gYRC_EiW9AkI2-1">
           <mxGeometry x="570" y="510" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sZTqvxaczfLuT-dMIU3Q-9" value="组件发布消息" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;exitX=0.41;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="En62j66gYRC_EiW9AkI2-1" source="2-fJDnXL6K1SpAREVf_n-0" target="p_JrLtFjQOZSsdlsvnKS-6">
