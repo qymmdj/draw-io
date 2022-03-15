@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T08:16:46.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="enia9g_q5L0ryBjyp7IG" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-15T09:10:03.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="NsrGhyPLtGBGFbJB8x6G" version="17.1.2" type="github" pages="2">
   <diagram id="yv2djHxBlIUbBeA3SvNk" name="Page-1">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -141,7 +141,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="n7fYLOnvmzlpy0FjeQLI" name="云原生">
-    <mxGraphModel dx="868" dy="2820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="2820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tkE-6RGiD1XkhkJRMwqg-0" />
         <mxCell id="tkE-6RGiD1XkhkJRMwqg-1" parent="tkE-6RGiD1XkhkJRMwqg-0" />
@@ -156,9 +156,6 @@
         </mxCell>
         <mxCell id="tkE-6RGiD1XkhkJRMwqg-5" value="3、多端分布式大数据处理" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;fontSize=12;align=left;strokeColor=none;" parent="tkE-6RGiD1XkhkJRMwqg-2" vertex="1">
           <mxGeometry x="50" y="90" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="EzJO9CGVRxWiF5z75GuJ-2" value="当我们讨论云原生的时候，究竟在讨论什么？&lt;br&gt;云原生是一种行为方式和设计理念，究其本质，凡事能提高云上资源利用率和应用交付效率的行为和方式都是云原生的&lt;br&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/school-172/512/brain_creativity_productivity_thinking_learning-128.png" vertex="1" parent="tkE-6RGiD1XkhkJRMwqg-2">
-          <mxGeometry x="110" y="-10" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="tkE-6RGiD1XkhkJRMwqg-6" value="云原生软件" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="tkE-6RGiD1XkhkJRMwqg-1" vertex="1">
           <mxGeometry x="518.25" y="-1150" width="120" height="80" as="geometry" />
