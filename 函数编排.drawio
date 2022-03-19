@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-19T02:50:18.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="duHtTVMKlDHiWqlkXObW" version="17.1.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-19T02:55:53.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="30Ef_2g86iByQb-k4FJb" version="17.1.3" type="github" pages="8">
   <diagram id="6BmZMtqxhM6QvQXqpz7c" name="技术架构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -596,7 +596,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DK0uMn7mP6DnAUS7oiEo" name="环节配置设计">
-    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mmfOZzemUYiw2GU2OU8k-0" />
         <mxCell id="mmfOZzemUYiw2GU2OU8k-1" parent="mmfOZzemUYiw2GU2OU8k-0" />
@@ -634,7 +634,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="p2_zo7TT0x2icms31yU9" name="服务环节出参配置">
-    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="q4G7HxG3aTEQHVo7EPYK-0" />
         <mxCell id="q4G7HxG3aTEQHVo7EPYK-1" parent="q4G7HxG3aTEQHVo7EPYK-0" />
@@ -642,7 +642,7 @@
           <mxGeometry x="45" y="180" width="530" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q4G7HxG3aTEQHVo7EPYK-3" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="q4G7HxG3aTEQHVo7EPYK-1" vertex="1">
-          <mxGeometry x="45" y="230" width="530" height="240" as="geometry" />
+          <mxGeometry x="45" y="230" width="530" height="150" as="geometry" />
         </mxCell>
         <mxCell id="q4G7HxG3aTEQHVo7EPYK-4" value="SQ05（生活缴费）-&lt;span style=&quot;font-family: &amp;quot;helvetica neue&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; background-color: rgb(246 , 248 , 249)&quot;&gt;AREA_NAME&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;" parent="q4G7HxG3aTEQHVo7EPYK-1" vertex="1">
           <mxGeometry x="45" y="230" width="530" height="30" as="geometry" />
@@ -658,13 +658,13 @@
         </mxCell>
         <mxCell id="U6DbHlkjUrQ9Njeh-CmL-1" value="" style="shape=link;html=1;rounded=0;curved=1;" parent="q4G7HxG3aTEQHVo7EPYK-1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="70" as="sourcePoint" />
+            <mxPoint x="250" y="70" as="sourcePoint" />
             <mxPoint x="370" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U6DbHlkjUrQ9Njeh-CmL-2" value="" style="shape=link;html=1;rounded=0;curved=1;" parent="q4G7HxG3aTEQHVo7EPYK-1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="90" as="sourcePoint" />
+            <mxPoint x="250" y="90" as="sourcePoint" />
             <mxPoint x="370" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -725,9 +725,6 @@
         </mxCell>
         <mxCell id="uFqGmjU71ocUF8v0va9Y-17" value="常量" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="uFqGmjU71ocUF8v0va9Y-1" vertex="1">
           <mxGeometry x="194" y="120" width="136" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uFqGmjU71ocUF8v0va9Y-18" value="const" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=none;" parent="uFqGmjU71ocUF8v0va9Y-1" vertex="1">
-          <mxGeometry x="204" y="125" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uFqGmjU71ocUF8v0va9Y-23" value="INFO" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="uFqGmjU71ocUF8v0va9Y-1" vertex="1">
           <mxGeometry x="5" y="10" width="130" height="30" as="geometry" />
@@ -794,6 +791,9 @@
         </mxCell>
         <mxCell id="AMNWQANSWhCxnv5IZ_HK-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/id-delacro/IE.png;shadow=0;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;" parent="uFqGmjU71ocUF8v0va9Y-1" vertex="1">
           <mxGeometry x="199" y="157.5" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="FojguC8p4sijLZ-OZDHV-0" value="a 0&lt;br&gt;z 9" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uFqGmjU71ocUF8v0va9Y-1">
+          <mxGeometry x="197" y="127.5" width="20" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
