@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T02:29:27.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="H-FU1inh6HGmQmIbU37A" version="17.1.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-21T02:48:08.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="nF5nDIyhCrE6Q_ASOCeJ" version="17.1.3" type="github" pages="8">
   <diagram id="6BmZMtqxhM6QvQXqpz7c" name="技术架构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1043,7 +1043,7 @@
           <mxGeometry x="20" y="385" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lvnqzhwytbsT8F4JHFJ-80" value="&lt;h1&gt;数组类型&lt;/h1&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;p&gt;1、如果&quot;[0]&quot;列返回的是list则拆分多个string&lt;/p&gt;&lt;p&gt;2、可以对数组中的某一个类型进行整体赋值&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontColor=#000000;verticalAlign=top;" vertex="1" parent="uFqGmjU71ocUF8v0va9Y-1">
-          <mxGeometry x="510" y="240" width="670" height="150" as="geometry" />
+          <mxGeometry x="510" y="240" width="670" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8lvnqzhwytbsT8F4JHFJ-81" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=right;" vertex="1" parent="uFqGmjU71ocUF8v0va9Y-1">
           <mxGeometry x="40" y="510" width="50" height="30" as="geometry" />
@@ -1122,6 +1122,12 @@
         </mxCell>
         <mxCell id="8lvnqzhwytbsT8F4JHFJ-120" value="[0]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#808080;align=left;" vertex="1" parent="uFqGmjU71ocUF8v0va9Y-1">
           <mxGeometry x="40" y="550" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8lvnqzhwytbsT8F4JHFJ-121" value="全部入参" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="uFqGmjU71ocUF8v0va9Y-1">
+          <mxGeometry x="46.5" y="-24" width="53.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8lvnqzhwytbsT8F4JHFJ-122" value="部分入参" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="uFqGmjU71ocUF8v0va9Y-1">
+          <mxGeometry x="114.5" y="-24" width="53.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
