@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:51:13.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="S3LIaw6AyxTf5obEQf7u" version="17.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:55:11.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="WADgvOeSmSQMulD5uYzx" version="17.1.3" type="github" pages="3">
   <diagram id="yv2djHxBlIUbBeA3SvNk" name="计算机体系结构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -344,7 +344,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wQWz6FIgZ1uwx5MnqVK7" name="云原生模式-第四章">
-    <mxGraphModel dx="1907" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2147" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="n4MTjj5MC-Q2C8126qxb-0" />
         <mxCell id="n4MTjj5MC-Q2C8126qxb-1" parent="n4MTjj5MC-Q2C8126qxb-0" />
@@ -658,7 +658,7 @@
         <mxCell id="0pUz7WFl6W5o1VECqwZE-112" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;订阅关系微服务 connections&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;关系微服务：&lt;/span&gt;&lt;/div&gt;&lt;p&gt;返回用户关注的美食博主&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;verticalAlign=bottom;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="980" y="970" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-130" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-137" target="0pUz7WFl6W5o1VECqwZE-127">
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-130" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;strokeColor=#99004D;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-137" target="0pUz7WFl6W5o1VECqwZE-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-113" value="&lt;p&gt;&lt;b&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;帖子微服务&amp;nbsp;&lt;/span&gt;posts&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
@@ -676,11 +676,11 @@
         <mxCell id="0pUz7WFl6W5o1VECqwZE-126" value="实现方式2：&lt;br&gt;基于事件驱动是实现" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;fontStyle=1" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="-50" y="1150" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-127" value="" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shadow=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-127" value="" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shadow=1;fontFamily=Helvetica;fontSize=14;rotation=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="1350" y="1205.5" width="60" height="82" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-129" value="/posts 发帖" style="text;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="1201" y="1217.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="1210" y="1231.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-134" value="/connectionsposts/{username}" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="320" y="1120" width="140" height="30" as="geometry" />
@@ -688,11 +688,22 @@
         <mxCell id="0pUz7WFl6W5o1VECqwZE-136" value="&lt;span style=&quot;text-align: left&quot;&gt;查询服务（&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;美食博主&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;对应的帖子内容&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#eeeeee;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="1006" y="1210" width="164" height="52.5" as="geometry" />
         </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-141" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#99004D;strokeWidth=1;fillColor=#cdeb8b;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-137" target="0pUz7WFl6W5o1VECqwZE-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-142" value="事件通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="0pUz7WFl6W5o1VECqwZE-141">
+          <mxGeometry x="-0.1126" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-137" value="写服务（发帖）" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#eeeeee;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="1006" y="1270" width="164" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-139" value="&lt;span style=&quot;text-align: left&quot;&gt;分别调用2个微服务，对结果加工后返回&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#eeeeee;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="526" y="1067.5" width="164" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-140" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;EventsController&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=14;strokeColor=#36393d;strokeWidth=1;fillColor=#eeeeee;verticalAlign=top;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="526" y="1138.75" width="164" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
