@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T07:45:41.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="FTTCn3ZnJ3JnaRLibv3-" version="17.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T07:46:55.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="bARPIFbMi5Wy3RMbvO_V" version="17.1.3" type="github" pages="3">
   <diagram id="yv2djHxBlIUbBeA3SvNk" name="计算机体系结构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -349,34 +349,25 @@
         <mxCell id="n4MTjj5MC-Q2C8126qxb-0" />
         <mxCell id="n4MTjj5MC-Q2C8126qxb-1" parent="n4MTjj5MC-Q2C8126qxb-0" />
         <mxCell id="0pUz7WFl6W5o1VECqwZE-0" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;size=0.5;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="540" y="-1100" width="136" height="180" as="geometry" />
+          <mxGeometry x="549.5" y="-1152" width="136" height="180" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-2" value="第四章：事件驱动微服务：不只是请求响应" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="250" y="-1035" width="100" height="40" as="geometry" />
+          <mxGeometry x="259.5" y="-1087" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-4" value="云原生软件主要实现方式之一：微服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="156" y="-980" width="420" height="30" as="geometry" />
+          <mxGeometry x="165.5" y="-1032" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-7" value="引言：微服务面临核心问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="676" y="-1117" width="150" height="30" as="geometry" />
+          <mxGeometry x="685.5" y="-1169" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-8" value="如何使用请求响应模型来设计" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="860" y="-1070" width="170" height="30" as="geometry" />
+          <mxGeometry x="869.5" y="-1122" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-9" value="" style="line;strokeWidth=1;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="600" y="-1015" width="76" height="10" as="geometry" />
+          <mxGeometry x="609.5" y="-1067" width="76" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-12" value="命令查询责任隔离模式（CQRS）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="1130" y="-1117" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-14" target="0pUz7WFl6W5o1VECqwZE-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-14" value="如何在云原生软件中使用这两种模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="666" y="-936" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-15" value="通过一个具体的演示项目来解释" style="whiteSpace=wrap;html=1;strokeWidth=1;fillColor=default;strokeColor=none;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="919" y="-951" width="120" height="60" as="geometry" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-14" value="&lt;span style=&quot;text-align: left&quot;&gt;命令查询责任隔离模式（CQRS）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="675.5" y="-988" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-17" target="0pUz7WFl6W5o1VECqwZE-43">
           <mxGeometry relative="1" as="geometry">
@@ -469,7 +460,7 @@
           <mxGeometry y="150" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-46" value="1、提纲" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#99004D;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="-30" y="-1035" width="100" height="40" as="geometry" />
+          <mxGeometry x="-20.5" y="-1087" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-47" value="2、问题" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#99004D;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="-30" y="-850" width="100" height="40" as="geometry" />
@@ -703,17 +694,22 @@
         <mxCell id="0pUz7WFl6W5o1VECqwZE-160" value="4、CRQS-命令查询责任隔离" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#99004D;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="30" y="1430" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-163" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#99004D;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-161" target="0pUz7WFl6W5o1VECqwZE-8">
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-163" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-161" target="0pUz7WFl6W5o1VECqwZE-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-164" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#99004D;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-161" target="0pUz7WFl6W5o1VECqwZE-162">
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-164" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-161" target="0pUz7WFl6W5o1VECqwZE-162">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-161" value="案例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="640" y="-1025" width="150" height="30" as="geometry" />
+          <mxGeometry x="649.5" y="-1077" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-166" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-162">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="-1017" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-162" value="如何使用事件驱动编程模型来设计" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="860" y="-1025" width="190" height="30" as="geometry" />
+          <mxGeometry x="869.5" y="-1032" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-165" value="&lt;a href=&quot;https://github.com/cdavisafc/cloudnative-abundantsunshine&quot;&gt;cdavisafc/cloudnative-abundantsunshine: Repo for Cloud Native book (github.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="250" y="-535" width="450" height="30" as="geometry" />
