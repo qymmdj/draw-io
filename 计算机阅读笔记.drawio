@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T01:55:28.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="qq9-rvSYWxeg49me1kK4" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-25T02:40:26.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="XUN82vKxi7OUhScZiO1D" version="17.1.3" type="github" pages="3">
   <diagram id="yv2djHxBlIUbBeA3SvNk" name="计算机体系结构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -339,6 +339,23 @@
         </mxCell>
         <mxCell id="DTLxaQ_LT-AIDHyL8B2Z-1" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;第2章：在生产环境使用云原生应用程序&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;面临的困难&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBorderColor=none;fontSize=12;" parent="tkE-6RGiD1XkhkJRMwqg-1" vertex="1">
           <mxGeometry x="678.25" y="-240" width="331.75" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wQWz6FIgZ1uwx5MnqVK7" name="云原生模式-第四章">
+    <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="n4MTjj5MC-Q2C8126qxb-0" />
+        <mxCell id="n4MTjj5MC-Q2C8126qxb-1" parent="n4MTjj5MC-Q2C8126qxb-0" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-0" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="570" y="-1100" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-2" value="第四章：事件驱动微服务：不只是请求响应" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="260" y="-1030" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-4" value="云原生软件主要实现方式之一：微服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="120" y="-980" width="420" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
