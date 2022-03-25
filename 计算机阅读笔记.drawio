@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T02:50:30.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="1DF7zvE9dx6oATyUfN99" version="17.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T03:00:51.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="HTqy-o_cMQtLUCVQJohR" version="17.1.3" type="github" pages="3">
   <diagram id="yv2djHxBlIUbBeA3SvNk" name="计算机体系结构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -373,6 +373,18 @@
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-12" value="命令查询责任隔离模式（CQRS）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="883" y="-1025" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-13" value="&lt;a href=&quot;https://github.com/cdavisafc/cloudnative-abundantsunshine&quot;&gt;cdavisafc/cloudnative-abundantsunshine: Repo for Cloud Native book (github.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="850" y="-981" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-14" target="0pUz7WFl6W5o1VECqwZE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-14" value="如何在云原生软件中使用这两种模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="630" y="-936" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-15" value="通过一个具体的演示项目来解释" style="whiteSpace=wrap;html=1;strokeWidth=1;fillColor=default;strokeColor=none;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="883" y="-951" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
