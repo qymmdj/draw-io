@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:14:02.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="RpK6gyrlTZqvwpLzSRn2" version="17.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:34:19.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.46" etag="kgBM0X1thIiAebdFiJC_" version="17.1.3" type="github" pages="3">
   <diagram id="yv2djHxBlIUbBeA3SvNk" name="计算机体系结构">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -518,9 +518,9 @@
         <mxCell id="0pUz7WFl6W5o1VECqwZE-64" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-61" target="0pUz7WFl6W5o1VECqwZE-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-95" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-61">
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-95" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#0000FF;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-61">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="640" as="targetPoint" />
+            <mxPoint x="140" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-96" value="基于事件驱动，设计改进，避免聚合点故障" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" vertex="1" connectable="0" parent="0pUz7WFl6W5o1VECqwZE-95">
@@ -549,20 +549,20 @@
             <mxPoint x="643" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-63" value="&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;相关帖子微服务&lt;br&gt;&lt;/span&gt;&lt;font&gt;cloudnative-connectionposts&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;b&gt;聚合服务&lt;/b&gt;&lt;span&gt;（组合服务）：&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;p&gt;分别调用2个微服务，对结果加工后返回&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-63" value="&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;相关帖子微服务&amp;nbsp;&lt;/span&gt;&lt;font&gt;connectionposts&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;b&gt;聚合服务&lt;/b&gt;&lt;span&gt;（组合服务）：&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;p&gt;分别调用2个微服务，对结果加工后返回&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="560" y="220" width="224" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-65" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;订阅关系微服务&lt;br&gt;cloudnative-connections&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;关系微服务：&lt;/span&gt;&lt;/div&gt;&lt;p&gt;返回用户关注的美食博主&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;verticalAlign=bottom;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="1070" y="140" width="250" height="110" as="geometry" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-65" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;订阅关系微服务 connections&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;关系微服务：&lt;/span&gt;&lt;/div&gt;&lt;p&gt;返回用户关注的美食博主&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;verticalAlign=bottom;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="1070" y="140" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-66" value="&lt;p&gt;&lt;b&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;帖子微服务&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;cloudnative-posts&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;美食博主&lt;p&gt;对应的帖子内容&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="1070" y="350" width="224" height="110" as="geometry" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-66" value="&lt;p&gt;&lt;b&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;帖子微服务&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;posts&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;美食博主&lt;p&gt;对应的帖子内容&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="1070" y="350" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-71" value="/connections/{username}" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="800" y="190" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-73" value="/connectionsposts/{token}}" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="370" y="250" width="140" height="30" as="geometry" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-73" value="/connectionsposts/{username}" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="359" y="260" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-77" value="案例应用：需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;fontStyle=1" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="-10" y="-80" width="60" height="30" as="geometry" />
@@ -652,12 +652,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-108" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#000000;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-111" target="0pUz7WFl6W5o1VECqwZE-113">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-109" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;根据美食博主id查询对应帖子内容&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" vertex="1" connectable="0" parent="0pUz7WFl6W5o1VECqwZE-108">
-          <mxGeometry x="-0.0719" y="-6" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-108" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#000000;startArrow=none;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-131" target="0pUz7WFl6W5o1VECqwZE-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="859" y="1200" />
+              <mxPoint x="963" y="1200" />
+              <mxPoint x="963" y="1269" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-110" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF0000;strokeWidth=2;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-111">
@@ -665,23 +666,20 @@
             <mxPoint x="613" y="1290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-111" value="&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;相关帖子微服务&lt;br&gt;&lt;/span&gt;&lt;font&gt;cloudnative-connectionposts&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;b&gt;聚合服务&lt;/b&gt;&lt;span&gt;（组合服务）：&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;p&gt;分别调用2个微服务，对结果加工后返回&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="530" y="1080" width="224" height="140" as="geometry" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-111" value="&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;相关帖子微服务&amp;nbsp;&lt;/span&gt;&lt;font&gt;connectionposts&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;b&gt;聚合服务&lt;/b&gt;&lt;span&gt;（组合服务）：&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;p&gt;分别调用2个微服务，对结果加工后返回&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="510" y="1080" width="224" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-112" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;订阅关系微服务&lt;br&gt;cloudnative-connections&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;关系微服务：&lt;/span&gt;&lt;/div&gt;&lt;p&gt;返回用户关注的美食博主&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;verticalAlign=bottom;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="1040" y="1000" width="250" height="110" as="geometry" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-112" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;订阅关系微服务 connections&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;关系微服务：&lt;/span&gt;&lt;/div&gt;&lt;p&gt;返回用户关注的美食博主&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;verticalAlign=bottom;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="980" y="970" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-113" value="&lt;p&gt;&lt;b&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;帖子微服务&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;cloudnative-posts&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;美食博主&lt;p&gt;对应的帖子内容&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="1040" y="1210" width="224" height="110" as="geometry" />
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-130" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-113" target="0pUz7WFl6W5o1VECqwZE-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-113" value="&lt;p&gt;&lt;b&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;帖子微服务&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;posts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;p&gt;美食博主&lt;/p&gt;&lt;/p&gt;&lt;p&gt;对应的帖子内容&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#000000;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="1006" y="1190" width="164" height="130" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-114" value="/connections/{username}" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="770" y="1050" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-115" value="/connectionsposts/{token}}" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="340" y="1110" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0pUz7WFl6W5o1VECqwZE-116" value="实现方式1：&lt;br&gt;基于请求响应模式实现" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;fontStyle=1" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
-          <mxGeometry x="-60" y="1140" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-117" value="" style="group" vertex="1" connectable="0" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="900" y="1242.5" width="50" height="45" as="geometry" />
@@ -714,6 +712,35 @@
         </mxCell>
         <mxCell id="0pUz7WFl6W5o1VECqwZE-124" value="实际生产系统，例如集中化，基本都是这种请求响应模式" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;shadow=1;align=left;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
           <mxGeometry x="546" y="1410" width="214" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-125" value="/posts?userIds=" style="text;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="820" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-126" value="实现方式2：&lt;br&gt;基于事件驱动是实现" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;fontStyle=1" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="-50" y="1150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-127" value="" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shadow=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="1350" y="1205.5" width="60" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-129" value="/posts 发帖" style="text;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="1201" y="1217.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-131" value="/posts?userIds=" style="text;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="799" y="1160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-132" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#000000;endArrow=none;" edge="1" parent="n4MTjj5MC-Q2C8126qxb-1" source="0pUz7WFl6W5o1VECqwZE-111" target="0pUz7WFl6W5o1VECqwZE-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="734" y="1150" as="sourcePoint" />
+            <mxPoint x="1006" y="1269.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-133" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;根据美食博主id查询对应帖子内容&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" vertex="1" connectable="0" parent="0pUz7WFl6W5o1VECqwZE-132">
+          <mxGeometry x="-0.0719" y="-6" relative="1" as="geometry">
+            <mxPoint x="110" y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0pUz7WFl6W5o1VECqwZE-134" value="/connectionsposts/{username}" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="n4MTjj5MC-Q2C8126qxb-1">
+          <mxGeometry x="320" y="1120" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
