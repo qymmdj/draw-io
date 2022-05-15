@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T07:33:00.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52" etag="XFaBX8cFsDW83uxc8mb7" version="17.2.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-05-15T01:34:04.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="kvW2OVNEaqrjr6ru26Ca" version="18.0.3" type="github" pages="13">
   <diagram id="7OookgQmFwPMR2R4jh_X" name="权限设计">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R6JmqC_NGcPAg3zRaIy5" name="部署架构-12月底">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CxBOyggLdA0DiXZsixGQ-0" />
         <mxCell id="CxBOyggLdA0DiXZsixGQ-1" parent="CxBOyggLdA0DiXZsixGQ-0" />
@@ -1594,6 +1594,14 @@
         <mxCell id="OuehBlDr3pmio5hi4CZX-57" value="组件上传接口" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=12;" vertex="1" parent="OuehBlDr3pmio5hi4CZX-1">
           <mxGeometry x="537.15" y="437" width="90" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VSmOOaMU6Wj7bgCSmmS8" name="服务出参环节流程图">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
