@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T10:43:14.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="_DjBlFkdXYRFdg3H7I50" version="20.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-17T10:47:57.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="w1m0sClMIG7-9eMBdbDT" version="20.0.1" type="github" pages="4">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,11 +241,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QIwrtpVHeCvd97eFpyaC" name="安徽磐基2.0方案">
-    <mxGraphModel dx="1080" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ik4zYnGLIFZP1b6cDdbX-23" value="磐基" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="Ik4zYnGLIFZP1b6cDdbX-23" value="磐基2.0" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="430" y="280" width="340" height="203.75" as="geometry" />
         </mxCell>
         <mxCell id="Ik4zYnGLIFZP1b6cDdbX-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ik4zYnGLIFZP1b6cDdbX-24" target="Ik4zYnGLIFZP1b6cDdbX-25">
@@ -326,7 +326,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ik4zYnGLIFZP1b6cDdbX-38" value="ingress/业务网关" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="280" width="70" height="30" as="geometry" />
+          <mxGeometry x="670" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ik4zYnGLIFZP1b6cDdbX-44" value="路由规则" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ik4zYnGLIFZP1b6cDdbX-41" target="Ik4zYnGLIFZP1b6cDdbX-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ik4zYnGLIFZP1b6cDdbX-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ik4zYnGLIFZP1b6cDdbX-41" target="Ik4zYnGLIFZP1b6cDdbX-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ik4zYnGLIFZP1b6cDdbX-41" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ik4zYnGLIFZP1b6cDdbX-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.598;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ik4zYnGLIFZP1b6cDdbX-43" target="Ik4zYnGLIFZP1b6cDdbX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ik4zYnGLIFZP1b6cDdbX-47" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ik4zYnGLIFZP1b6cDdbX-43" target="Ik4zYnGLIFZP1b6cDdbX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ik4zYnGLIFZP1b6cDdbX-43" value="服务治理规则" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="230" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
