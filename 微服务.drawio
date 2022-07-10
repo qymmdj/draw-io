@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-10T12:01:26.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="K0fntTtooKT-5CBfPD_z" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-10T12:02:54.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="6rRa1uaHHlhArRtatPyw" version="20.0.4" type="github" pages="6">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -444,10 +444,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ln4gql3h3M_h1a3TBbWR" name="服务治理交互方式">
-    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YM8dxwmM0GBovefQRvFO-1" value="服务治理控制面板" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="570" height="230" as="geometry" />
+        </mxCell>
         <mxCell id="uDoJqgG45e75VqiRyIqA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A43cIUFJeXV-d4h7t1mJ-5" target="uDoJqgG45e75VqiRyIqA-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -469,7 +472,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uDoJqgG45e75VqiRyIqA-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="357" y="290" width="60" height="80" as="geometry" />
+          <mxGeometry x="357" y="260" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uDoJqgG45e75VqiRyIqA-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="uDoJqgG45e75VqiRyIqA-5" target="uDoJqgG45e75VqiRyIqA-9">
           <mxGeometry relative="1" as="geometry" />
