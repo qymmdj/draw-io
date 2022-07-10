@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-10T12:02:54.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="6rRa1uaHHlhArRtatPyw" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-10T12:04:13.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="TwTX8AKGq8j9GEttzYRf" version="20.0.4" type="github" pages="6">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -491,6 +491,19 @@
               <mxPoint x="430" y="580" />
               <mxPoint x="432" y="580" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YM8dxwmM0GBovefQRvFO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="uDoJqgG45e75VqiRyIqA-9" target="uDoJqgG45e75VqiRyIqA-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="680" />
+              <mxPoint x="520" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YM8dxwmM0GBovefQRvFO-3" value="拉取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="YM8dxwmM0GBovefQRvFO-2">
+          <mxGeometry x="0.0759" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
