@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T02:29:38.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="qkQpQgLS_hFOfp99N3T0" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-11T02:51:01.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="fpSfkpnktNnr8Rxm5J2i" version="20.0.4" type="github" pages="7">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -513,8 +513,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="dIbFQaCwx0YV6fdabbpS" name="Page-7">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="dIbFQaCwx0YV6fdabbpS" name="apollo">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -564,6 +564,12 @@
         </mxCell>
         <mxCell id="62a3e5n19uAiWDYDqLr6-38" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="430" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-42" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="62a3e5n19uAiWDYDqLr6-41" target="62a3e5n19uAiWDYDqLr6-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-41" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;应用ID、集群名称&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="510" y="10" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
