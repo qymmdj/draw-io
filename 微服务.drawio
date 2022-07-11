@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-10T12:04:13.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="TwTX8AKGq8j9GEttzYRf" version="20.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-11T02:09:59.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="SGQePkOnnVTz_drvYA7D" version="20.0.4" type="github" pages="7">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -444,7 +444,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ln4gql3h3M_h1a3TBbWR" name="服务治理交互方式">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -509,6 +509,49 @@
         </mxCell>
         <mxCell id="uDoJqgG45e75VqiRyIqA-9" value="客户端jar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="660" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dIbFQaCwx0YV6fdabbpS" name="Page-7">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="62a3e5n19uAiWDYDqLr6-24" value="创建APP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="62a3e5n19uAiWDYDqLr6-2" target="62a3e5n19uAiWDYDqLr6-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-2" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;curved=1;" edge="1" parent="1" source="62a3e5n19uAiWDYDqLr6-9" target="62a3e5n19uAiWDYDqLr6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;部门、应用ID，应用名称，应用负责人，应用管理员&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="62a3e5n19uAiWDYDqLr6-23" target="62a3e5n19uAiWDYDqLr6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-23" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;AppController&lt;/b&gt;&lt;br&gt;&lt;b&gt;/apps/&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-28" value="ApolloPortalDB" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="310" width="135" height="110" as="geometry">
+            <mxRectangle x="105" y="300" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-29" value="App" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=1;fontSize=10;" vertex="1" parent="62a3e5n19uAiWDYDqLr6-28">
+          <mxGeometry y="30" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-30" value="Audit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=1;fontSize=10;" vertex="1" parent="62a3e5n19uAiWDYDqLr6-28">
+          <mxGeometry y="50" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-31" value="AppNamespace" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=1;fontSize=10;" vertex="1" parent="62a3e5n19uAiWDYDqLr6-28">
+          <mxGeometry y="70" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="62a3e5n19uAiWDYDqLr6-34" value="Cluster" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=1;fontSize=10;" vertex="1" parent="62a3e5n19uAiWDYDqLr6-28">
+          <mxGeometry y="90" width="135" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
