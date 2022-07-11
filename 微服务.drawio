@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T08:22:25.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="YRvnGByxADq0j3aS31Ie" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:26:13.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="HQSQV4awgxRjOh2rg5MM" version="20.0.4" type="github" pages="7">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -676,7 +676,7 @@
           <mxGeometry x="-20" y="540" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oEMqG--oYzZcGAwjSy5C-1" value="&lt;b&gt;NotificationControllerV2&lt;/b&gt;&lt;br&gt;/notifications/v2" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="540" width="220" height="60" as="geometry" />
+          <mxGeometry x="1267.5" y="530" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oEMqG--oYzZcGAwjSy5C-2" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=10;fontColor=#000000;fillColor=#eeeeee;strokeColor=#36393d;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -686,6 +686,17 @@
         </mxCell>
         <mxCell id="oEMqG--oYzZcGAwjSy5C-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;client&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry y="730" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oEMqG--oYzZcGAwjSy5C-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="oEMqG--oYzZcGAwjSy5C-4" target="oEMqG--oYzZcGAwjSy5C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oEMqG--oYzZcGAwjSy5C-6" value="appId,cluster,notifications,dataCenter,ip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="oEMqG--oYzZcGAwjSy5C-5">
+          <mxGeometry x="-0.1427" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oEMqG--oYzZcGAwjSy5C-4" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="790" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
