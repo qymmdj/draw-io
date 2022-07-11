@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T03:22:53.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="Wc-ZjR_IwQT2rJxfUjYp" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-11T03:29:46.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="epmVrD-9KZ24oGcCcfOg" version="20.0.4" type="github" pages="7">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -588,7 +588,7 @@
         <mxCell id="62a3e5n19uAiWDYDqLr6-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="62a3e5n19uAiWDYDqLr6-51" target="62a3e5n19uAiWDYDqLr6-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="62a3e5n19uAiWDYDqLr6-51" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;NamespaceController&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;/apps/{appId}/clusters/{clusterName}/namespaces&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;shadow=1;" vertex="1" parent="1">
+        <mxCell id="62a3e5n19uAiWDYDqLr6-51" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;AppNamespace&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;/apps/{appId}/appnamespaces&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="200" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="62a3e5n19uAiWDYDqLr6-52" value="创建NameSpace" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="62a3e5n19uAiWDYDqLr6-53" target="62a3e5n19uAiWDYDqLr6-51">
