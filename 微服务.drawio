@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T02:24:49.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="rDmojIl3wNvJelIYbOnS" version="20.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-20T02:37:47.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="WD7KYoNT7Sh5yf_0s6gn" version="20.1.1" type="github" pages="7">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -296,6 +296,11 @@
         <mxCell id="Ik4zYnGLIFZP1b6cDdbX-15" value="业务网关" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="170" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="h2-QsG4aqAWyDCscT9Ba-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;fontSize=9;startArrow=none;startFill=0;endArrow=blockThin;endFill=0;dashed=1;" edge="1" parent="1" source="Ik4zYnGLIFZP1b6cDdbX-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ik4zYnGLIFZP1b6cDdbX-19" value="HSF客户端" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="70" width="90" height="20" as="geometry" />
         </mxCell>
@@ -363,7 +368,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h2-QsG4aqAWyDCscT9Ba-20" value="" style="group;shadow=1;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="440" y="80" width="90" height="70" as="geometry" />
+          <mxGeometry x="440" y="86" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="h2-QsG4aqAWyDCscT9Ba-21" value="&lt;b&gt;zk集群&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=9;verticalAlign=top;" vertex="1" parent="h2-QsG4aqAWyDCscT9Ba-20">
           <mxGeometry width="90" height="70" as="geometry" />
@@ -393,10 +398,10 @@
           <mxGeometry x="300" y="-200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h2-QsG4aqAWyDCscT9Ba-31" value="ESB" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-90" width="270" height="60" as="geometry" />
+          <mxGeometry x="420" y="-110" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h2-QsG4aqAWyDCscT9Ba-32" value="流控" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-90" width="290" height="60" as="geometry" />
+          <mxGeometry x="90" y="-110" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
