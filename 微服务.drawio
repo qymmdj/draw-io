@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T03:55:47.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="dEl-F2VIUfLnPHM74YDG" version="20.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-20T03:59:25.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="24Td8g_ZViOYhxzaX_o4" version="20.1.1" type="github" pages="8">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -754,7 +754,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8dLHvg0w04ta4mNCYViJ" name="安徽移动系统地图">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -771,7 +771,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ay5xZE_sc3NmVNd9Zl66-11" value="营业OP" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=11;verticalAlign=top;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="38" y="190" width="262" height="60" as="geometry" />
+          <mxGeometry x="39" y="190" width="262" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ay5xZE_sc3NmVNd9Zl66-8" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;CRMOP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="60" y="218" width="60" height="20" as="geometry" />
@@ -816,7 +816,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c2tI1qjZaUw_-NXN-5t6-17" value="流程编排控制" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="185" y="280.5" width="98" height="40" as="geometry" />
+          <mxGeometry x="186" y="279.5" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yMKqJdlQllcvzu05C8lx-10" value="注册中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="430" y="370" width="98" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
