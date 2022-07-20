@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T03:59:25.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="24Td8g_ZViOYhxzaX_o4" version="20.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-20T04:03:55.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="WYFCPd_grBK-474zzY4g" version="20.1.1" type="github" pages="8">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -754,12 +754,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8dLHvg0w04ta4mNCYViJ" name="安徽移动系统地图">
-    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-31" value="&lt;b&gt;能&lt;br&gt;力&lt;br&gt;层&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=11;align=left;" vertex="1" parent="1">
-          <mxGeometry x="38" y="543" width="340" height="100" as="geometry" />
+        <mxCell id="yMKqJdlQllcvzu05C8lx-11" value="服务订阅" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;fontSize=11;startArrow=none;startFill=0;endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="ay5xZE_sc3NmVNd9Zl66-16" target="yMKqJdlQllcvzu05C8lx-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ay5xZE_sc3NmVNd9Zl66-16" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="310" y="280" width="380" height="40" as="geometry" />
@@ -788,29 +788,29 @@
         <mxCell id="ay5xZE_sc3NmVNd9Zl66-14" value="微服务网关" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="550" y="288" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-23" value="客户中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="62" y="563" width="70" height="30" as="geometry" />
+        <mxCell id="ay5xZE_sc3NmVNd9Zl66-23" value="客&lt;br&gt;户&lt;br&gt;中&lt;br&gt;心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="470" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-24" value="用户中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="132" y="563" width="70" height="30" as="geometry" />
+        <mxCell id="ay5xZE_sc3NmVNd9Zl66-24" value="用&lt;br&gt;户&lt;br&gt;中&lt;br&gt;心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="420" y="470" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-25" value="账管中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="202" y="563" width="70" height="30" as="geometry" />
+        <mxCell id="ay5xZE_sc3NmVNd9Zl66-25" value="账&lt;br&gt;管&lt;br&gt;中&lt;br&gt;心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="440" y="470" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-26" value="基础中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="272" y="563" width="70" height="30" as="geometry" />
+        <mxCell id="ay5xZE_sc3NmVNd9Zl66-26" value="基&lt;br&gt;础&lt;br&gt;中&lt;br&gt;心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="460" y="470" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-27" value="订单中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="62" y="593" width="70" height="30" as="geometry" />
+        <mxCell id="ay5xZE_sc3NmVNd9Zl66-27" value="订&lt;br&gt;单&lt;br&gt;中&lt;br&gt;心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="480" y="470" width="25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-28" value="资源中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="132" y="593" width="70" height="30" as="geometry" />
+        <mxCell id="ay5xZE_sc3NmVNd9Zl66-28" value="资&lt;br&gt;源&lt;br&gt;中&lt;br&gt;心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="505" y="470" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-29" value="产品中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="202" y="593" width="70" height="30" as="geometry" />
+        <mxCell id="ay5xZE_sc3NmVNd9Zl66-29" value="产&lt;br&gt;品&lt;br&gt;中&lt;br&gt;心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="525" y="470" width="15" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ay5xZE_sc3NmVNd9Zl66-30" value="号卡中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="272" y="593" width="70" height="30" as="geometry" />
+        <mxCell id="ay5xZE_sc3NmVNd9Zl66-30" value="号&lt;br&gt;卡&lt;br&gt;中&lt;br&gt;心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="541" y="470" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c2tI1qjZaUw_-NXN-5t6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;fontSize=11;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="c2tI1qjZaUw_-NXN-5t6-17" target="ay5xZE_sc3NmVNd9Zl66-16">
           <mxGeometry relative="1" as="geometry" />
@@ -819,7 +819,7 @@
           <mxGeometry x="186" y="279.5" width="98" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yMKqJdlQllcvzu05C8lx-10" value="注册中心" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="430" y="370" width="98" height="40" as="geometry" />
+          <mxGeometry x="451" y="370" width="98" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
