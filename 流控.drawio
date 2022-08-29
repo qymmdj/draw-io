@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T07:30:15.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="Yq6pNNaR4ytaJtEDlUI6" version="20.2.4" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-08-29T10:34:24.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="o7s5ZXLxhF12-5NT5vfb" version="20.2.4" type="github" pages="19">
   <diagram id="7OookgQmFwPMR2R4jh_X" name="权限设计">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -2160,7 +2160,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o82Awh8xUCpsHLjsvNLP" name="新版-分流设计">
-    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2" dy="41" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2294,11 +2294,21 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WkLetBWBTw95FY0xh9A9-36" value="现网" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="WkLetBWBTw95FY0xh9A9-43" value="COM001518" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WkLetBWBTw95FY0xh9A9-36" target="WkLetBWBTw95FY0xh9A9-33">
+          <mxGeometry x="0.1246" relative="1" as="geometry">
+            <mxPoint x="480" y="1299" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="552" y="1120" />
+              <mxPoint x="552" y="1325" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkLetBWBTw95FY0xh9A9-36" value="生产" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="406" y="1090" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WkLetBWBTw95FY0xh9A9-37" value="&lt;b&gt;新部署&lt;/b&gt;&lt;br&gt;新版流程引擎" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1540" width="120" height="140" as="geometry" />
+          <mxGeometry x="361" y="1425" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="WkLetBWBTw95FY0xh9A9-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WkLetBWBTw95FY0xh9A9-37" target="WkLetBWBTw95FY0xh9A9-37">
           <mxGeometry relative="1" as="geometry" />
@@ -2313,8 +2323,14 @@
             <mxPoint x="-1" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WkLetBWBTw95FY0xh9A9-41" value="SQ开头的组件，将SQ改成CP，后面数组不变" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="495" y="1590" width="110" height="60" as="geometry" />
+        <mxCell id="WkLetBWBTw95FY0xh9A9-41" value="对SQ开头的组件，将SQ改成COP，后面数组不变" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="366" y="1471" width="110" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="WkLetBWBTw95FY0xh9A9-42" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="381" y="630" as="sourcePoint" />
+            <mxPoint x="461" y="630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
