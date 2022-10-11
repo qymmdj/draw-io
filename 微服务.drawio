@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T08:14:28.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="lRlK9RTgGlbwX6zfV_i2" version="20.4.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-10-11T08:27:02.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="VkQUb0vfDJYvHlgY07HS" version="20.4.0" type="github" pages="12">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1071,12 +1071,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jqDsVK5vDyAQHHpUZFZE" name="组件及开发框架演进">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ImOWUjHMhFc7XCHs7Ndc-33" value="基础工具用户层" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;dashed=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="420" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="ImOWUjHMhFc7XCHs7Ndc-22" value="基础工具类(可依赖core包)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;dashed=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="70" y="340" width="380" height="140" as="geometry" />
+          <mxGeometry x="70" y="350" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ImOWUjHMhFc7XCHs7Ndc-15" value="core包（仅依赖JDK）" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;verticalAlign=top;fillColor=#ffff88;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="100" y="420" width="320" height="54" as="geometry" />
@@ -1116,6 +1119,18 @@
         </mxCell>
         <mxCell id="ImOWUjHMhFc7XCHs7Ndc-27" value="......" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="450" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ImOWUjHMhFc7XCHs7Ndc-29" value="基础包版本pom" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ImOWUjHMhFc7XCHs7Ndc-30" value="CORE-POM" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="164" y="310" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ImOWUjHMhFc7XCHs7Ndc-31" value="JDBC-POM" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ImOWUjHMhFc7XCHs7Ndc-32" value="....--POM" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="352" y="310" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
