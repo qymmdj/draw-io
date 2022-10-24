@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T07:19:50.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="M_1WLmyNVcKefAG1t8mS" version="20.4.0" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2022-10-24T01:33:25.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="26cTV1-CCY5ASSDTrHFq" version="20.4.0" type="github" pages="24">
   <diagram id="7OookgQmFwPMR2R4jh_X" name="权限设计">
     <mxGraphModel dx="2088" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -2654,34 +2654,42 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AA5_WYCBQKHQSvDisuLl" name="部署架构">
-    <mxGraphModel dx="1319" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="90kEOhPUSnTkhUYFiYcT-7" value="tomcat" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="90kEOhPUSnTkhUYFiYcT-7" value="tomcat" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="334" y="280" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="90kEOhPUSnTkhUYFiYcT-8" value="流程引擎" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="90kEOhPUSnTkhUYFiYcT-8" value="流程引擎" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="354" y="300" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="90kEOhPUSnTkhUYFiYcT-4" value="tomcat" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="90kEOhPUSnTkhUYFiYcT-4" value="tomcat" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="334" y="110" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="90kEOhPUSnTkhUYFiYcT-9" value="流程图发布" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="90kEOhPUSnTkhUYFiYcT-5" target="90kEOhPUSnTkhUYFiYcT-8">
+        <mxCell id="90kEOhPUSnTkhUYFiYcT-9" value="流程图发布" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="90kEOhPUSnTkhUYFiYcT-5" target="90kEOhPUSnTkhUYFiYcT-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90kEOhPUSnTkhUYFiYcT-5" value="流程编排后端" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="90kEOhPUSnTkhUYFiYcT-5" value="流程编排后端" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="354" y="130" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="90kEOhPUSnTkhUYFiYcT-2" value="NGINX" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="90kEOhPUSnTkhUYFiYcT-2" value="NGINX" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="60" y="110" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="90kEOhPUSnTkhUYFiYcT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="90kEOhPUSnTkhUYFiYcT-3" target="90kEOhPUSnTkhUYFiYcT-5">
+        <mxCell id="90kEOhPUSnTkhUYFiYcT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="90kEOhPUSnTkhUYFiYcT-3" target="90kEOhPUSnTkhUYFiYcT-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90kEOhPUSnTkhUYFiYcT-3" value="流程编排前端" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="90kEOhPUSnTkhUYFiYcT-3" value="流程编排前端" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="80" y="130" width="120" height="35" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aVdQ3gwEY0PZGUKomSvN" name=" 连线状态设计">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
