@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T09:40:35.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="yry3hwkkxDkpqeqwTsPh" version="20.4.0" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-10-26T10:11:10.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="7bFHhMIZhxHLxxW8XxNs" version="20.4.0" type="github" pages="15">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="917" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1835,6 +1835,11 @@
               <mxPoint x="680" y="144" />
               <mxPoint x="680" y="550" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHHtQ6_iFzDWIGIR-E6s-51" value="原生流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="pHHtQ6_iFzDWIGIR-E6s-49">
+          <mxGeometry x="-0.1611" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pHHtQ6_iFzDWIGIR-E6s-44" value="cmf" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
