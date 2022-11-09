@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T12:29:14.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="HTwsQv4GM8HzJMMa6Pm4" version="20.5.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-11-09T12:45:19.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="h--K8rrqu_ziem7UzIZH" version="20.5.1" type="github" pages="16">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1316,13 +1316,22 @@
           <mxGeometry x="395.9849438202247" y="79" width="109.32584269662922" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MbEcLqSP3dSgSl7QCuQE-5" value="开发业务组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="48" y="830" width="99" height="30" as="geometry" />
+          <mxGeometry x="46.39" y="910" width="99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MbEcLqSP3dSgSl7QCuQE-6" value="开发APP应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="48" y="880" width="99" height="30" as="geometry" />
+          <mxGeometry x="46.39" y="960" width="99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="MbEcLqSP3dSgSl7QCuQE-7" target="zJXiu6MCUiwx5KmJ2sI1-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="MbEcLqSP3dSgSl7QCuQE-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="845" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="795" />
+              <mxPoint x="170" y="845" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="MbEcLqSP3dSgSl7QCuQE-7" value="开发技术组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="48" y="780" width="99" height="30" as="geometry" />
@@ -1333,11 +1342,29 @@
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-1" value="基础组件库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="192.3" y="750" width="99" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-128.png;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="309.6" y="660" width="60" height="60" as="geometry" />
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-3" value="git.si-tech" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-128.png;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="317.51" y="650" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-4" value="加入基础组件仓库" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="280.84" y="740" width="112" height="50" as="geometry" />
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-4" value="基于公共的公共组件仓库进行开发" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="291.51" y="740" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-5" value="创建BOOT组件模板工程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="498.8799999999999" y="825" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-7" value="BOOT组件库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="192.3" y="830" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontSize=9;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-8" target="zJXiu6MCUiwx5KmJ2sI1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-8" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 4; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; orphans: 2; background-color: rgb(248, 249, 250);&quot;&gt;创建BOOT组件模板工程&lt;/span&gt;&lt;br&gt;maven archetype:generate&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;strokeColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280.84" y="830" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=9;dashed=1;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-10" target="zJXiu6MCUiwx5KmJ2sI1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-10" value="NEXUS" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.nexus_fabric_switch;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="660" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
