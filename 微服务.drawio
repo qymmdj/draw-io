@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T12:45:19.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="h--K8rrqu_ziem7UzIZH" version="20.5.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-11-09T12:47:29.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="z7EzHunfdyJvXh9ova0M" version="20.5.1" type="github" pages="16">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1342,11 +1342,14 @@
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-1" value="基础组件库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="192.3" y="750" width="99" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-3" value="git.si-tech" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-128.png;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="317.51" y="650" width="60" height="60" as="geometry" />
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-3" target="zJXiu6MCUiwx5KmJ2sI1-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-4" value="基于公共的公共组件仓库进行开发" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="291.51" y="740" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-3" value="git.si-tech" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-128.png;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="317.51" y="650" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-5" value="创建BOOT组件模板工程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="498.8799999999999" y="825" width="112" height="50" as="geometry" />
