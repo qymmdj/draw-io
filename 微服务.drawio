@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T00:42:28.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="tInqdSYEuq6OsGf3L5gR" version="20.5.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-11-10T01:16:18.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="2EK5TjOIXvB5VS2YV_f9" version="20.5.3" type="github" pages="16">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1071,7 +1071,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jqDsVK5vDyAQHHpUZFZE" name="组件及开发框架演进">
-    <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1319,7 +1319,7 @@
           <mxGeometry x="50.78" y="980" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MbEcLqSP3dSgSl7QCuQE-6" value="APP应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="41.28" y="1270" width="99" height="30" as="geometry" />
+          <mxGeometry x="48" y="1215" width="99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MbEcLqSP3dSgSl7QCuQE-7" value="技术组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="48" y="786" width="99" height="30" as="geometry" />
@@ -1384,15 +1384,15 @@
           <mxGeometry x="280.84" y="825" width="139" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-23" value="&lt;h1&gt;自动化文档&lt;/h1&gt;&lt;p&gt;怎么管理&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;源码：集中仓库？&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="685" width="190" height="140" as="geometry" />
+          <mxGeometry x="151.95000000000005" y="1380" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;strokeColor=default;fontSize=9;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="137.78" y="935" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-31" value="标准工程模板" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-31" value="标准业务组件工程模板" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="151.95000000000002" y="920" width="99" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-32" value="自定义工程模板" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-32" value="自定义业务组件工程模板" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="161.78" y="1040" width="99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;strokeColor=default;strokeWidth=2;fontSize=9;" parent="1" vertex="1">
@@ -1410,31 +1410,128 @@
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-36" value="自动下载并创建工程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="489.6899999999999" y="925" width="112" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-38" value="打开业务组件模板工程，代码开发" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="651.6899999999998" y="925" width="112" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=9;endSize=1;" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-41" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="790" y="1052.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-41" value="&lt;ul&gt;&lt;li&gt;选择工程结构&lt;/li&gt;&lt;li&gt;选择用到的组件&lt;/li&gt;&lt;li&gt;对应代码按例&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;shadow=1;strokeWidth=1;fontSize=9;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="275" y="1015" width="135" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=9;endSize=6;endArrow=classicThin;endFill=1;startSize=6;" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-48" target="zJXiu6MCUiwx5KmJ2sI1-49" edge="1">
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-38" target="G5TyHb7zRcIlhBYvhQQI-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-48" value="后端框架生成平台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=1;strokeColor=default;strokeWidth=1;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="788" y="665" width="120" height="80" as="geometry" />
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="685" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="950" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=9;endArrow=classicThin;endFill=1;startSize=6;endSize=6;" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-49" target="zJXiu6MCUiwx5KmJ2sI1-54" edge="1">
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-10" value="deploy jar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G5TyHb7zRcIlhBYvhQQI-9">
+          <mxGeometry x="0.2606" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-38" value="打开业务组件模板工程，代码开发" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="648.6899999999998" y="925" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-41" target="zJXiu6MCUiwx5KmJ2sI1-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-41" value="&lt;ul&gt;&lt;li&gt;选择工程结构&lt;/li&gt;&lt;li&gt;选择用到的组件&lt;/li&gt;&lt;li&gt;对应代码按例&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;shadow=1;strokeWidth=1;fontSize=9;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="275" y="1017" width="135" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-48" target="zJXiu6MCUiwx5KmJ2sI1-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-14" value="下载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G5TyHb7zRcIlhBYvhQQI-13">
+          <mxGeometry x="-0.4532" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=blockThin;endFill=1;entryX=0.59;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-48" target="G5TyHb7zRcIlhBYvhQQI-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="690" />
+              <mxPoint x="1020" y="1130" />
+              <mxPoint x="550" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-30" value="下载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G5TyHb7zRcIlhBYvhQQI-29">
+          <mxGeometry x="-0.5917" y="2" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-48" value="后端框架生成平台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=1;strokeColor=#B20000;strokeWidth=1;fontSize=9;fillColor=#e51400;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="880" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.405;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="zJXiu6MCUiwx5KmJ2sI1-49" target="zJXiu6MCUiwx5KmJ2sI1-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zJXiu6MCUiwx5KmJ2sI1-49" value="平台自动创建，并提供下载工程模板" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;strokeWidth=0;" parent="1" vertex="1">
-          <mxGeometry x="791.9999999999999" y="1030" width="112" height="50" as="geometry" />
+          <mxGeometry x="637.9999999999999" y="1029.5" width="112" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zJXiu6MCUiwx5KmJ2sI1-54" value="业务功能开发" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;strokeWidth=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="950" y="1030" width="90" height="50" as="geometry" />
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G5TyHb7zRcIlhBYvhQQI-2" target="zJXiu6MCUiwx5KmJ2sI1-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-8" value="deploy(源码模板）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G5TyHb7zRcIlhBYvhQQI-4">
+          <mxGeometry x="-0.3694" relative="1" as="geometry">
+            <mxPoint x="6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-2" value="将开发完毕的代码生成maven&amp;nbsp; 模板" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="925" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=9;" edge="1" parent="1" source="G5TyHb7zRcIlhBYvhQQI-16" target="G5TyHb7zRcIlhBYvhQQI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-16" value="&lt;div&gt;创建业务组件模板工程&lt;/div&gt;&lt;div&gt;maven archetype:generate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="270.19" y="1160" width="139" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=9;" edge="1" parent="1" source="G5TyHb7zRcIlhBYvhQQI-18" target="G5TyHb7zRcIlhBYvhQQI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-18" value="自动下载并创建工程" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="484.8799999999999" y="1165" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="G5TyHb7zRcIlhBYvhQQI-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="348" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="1190" />
+              <mxPoint x="1160" y="630" />
+              <mxPoint x="348" y="630" />
+              <mxPoint x="348" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-20" value="打开业务组件模板工程，代码开发" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="643.8799999999999" y="1165" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="G5TyHb7zRcIlhBYvhQQI-22" target="G5TyHb7zRcIlhBYvhQQI-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-22" value="&lt;ul&gt;&lt;li&gt;选择工程结构&lt;/li&gt;&lt;li&gt;选择用到的组件&lt;/li&gt;&lt;li&gt;对应代码按例&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;shadow=1;strokeWidth=1;fontSize=9;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270.19" y="1257" width="135" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.405;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="G5TyHb7zRcIlhBYvhQQI-24" target="G5TyHb7zRcIlhBYvhQQI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-24" value="平台自动创建，并提供下载工程模板" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="633.1899999999999" y="1269.5" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;strokeColor=default;fontSize=9;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130.78000000000003" y="1175" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-27" value="标准APP工程模板" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="144.95000000000005" y="1160" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G5TyHb7zRcIlhBYvhQQI-28" value="自定义APP工程模板" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="151.95000000000002" y="1279.5" width="99" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
