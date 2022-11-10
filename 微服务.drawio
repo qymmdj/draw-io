@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T03:01:49.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="Cfig75fu1A5QEyPRyXwi" version="20.5.3" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-11-10T03:06:43.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="kHRbtvLj9rXVvpY51aiW" version="20.5.3" type="github" pages="18">
   <diagram id="CUrExS9mgLz-gfe5I3Cl" name="客户端调用+监控加错">
     <mxGraphModel dx="1108" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2336,10 +2336,10 @@
         <mxCell id="LJc1uedgV4DFgfYgRYuO-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="LJc1uedgV4DFgfYgRYuO-64" target="LJc1uedgV4DFgfYgRYuO-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LJc1uedgV4DFgfYgRYuO-64" value="工程模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1675" width="120" height="60" as="geometry" />
+        <mxCell id="LJc1uedgV4DFgfYgRYuO-64" value="工程模板&lt;br&gt;功能开发&lt;br&gt;README.md" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1675" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LJc1uedgV4DFgfYgRYuO-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;curved=1;" edge="1" parent="1" source="LJc1uedgV4DFgfYgRYuO-67" target="LJc1uedgV4DFgfYgRYuO-64">
+        <mxCell id="LJc1uedgV4DFgfYgRYuO-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;curved=1;entryPerimeter=0;" edge="1" parent="1" source="LJc1uedgV4DFgfYgRYuO-67" target="LJc1uedgV4DFgfYgRYuO-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LJc1uedgV4DFgfYgRYuO-67" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;maven archetype:generate&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#FFFFFF;strokeColor=#B20000;" vertex="1" parent="1">
@@ -2355,7 +2355,7 @@
           <mxGeometry x="508.19" y="1720" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LJc1uedgV4DFgfYgRYuO-74" value="git.si-tech" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-128.png;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1715" width="60" height="60" as="geometry" />
+          <mxGeometry x="767" y="1820" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LJc1uedgV4DFgfYgRYuO-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;curved=1;" edge="1" parent="1" source="LJc1uedgV4DFgfYgRYuO-76" target="LJc1uedgV4DFgfYgRYuO-63">
           <mxGeometry relative="1" as="geometry" />
@@ -2365,6 +2365,74 @@
         </mxCell>
         <mxCell id="LJc1uedgV4DFgfYgRYuO-76" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="40" y="1670" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc1uedgV4DFgfYgRYuO-82" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="LJc1uedgV4DFgfYgRYuO-81" target="LJc1uedgV4DFgfYgRYuO-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc1uedgV4DFgfYgRYuO-81" value="NEXUS" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.nexus_fabric_switch;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="355.1899999999998" y="1840" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="12L81f_245QjK1AMaMqU" name="第 18 页">
+    <mxGraphModel dx="1118" dy="-687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e21X7CneFD9sD8UOWSQz-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-2" target="e21X7CneFD9sD8UOWSQz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-2" value="&lt;font size=&quot;1&quot;&gt;maven reame 上传插件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="508.19" y="1635" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=blockThin;endFill=1;curved=1;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-4" target="e21X7CneFD9sD8UOWSQz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-4" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-size: 9px;&quot;&gt;后端框架生成平台&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="161.78" y="1640" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-7" target="e21X7CneFD9sD8UOWSQz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-7" target="e21X7CneFD9sD8UOWSQz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-7" value="工程模板&lt;br&gt;功能开发&lt;br&gt;README.md" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1675" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;curved=1;entryPerimeter=0;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-9" target="e21X7CneFD9sD8UOWSQz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-9" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;maven archetype:generate&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#FFFFFF;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="161.78" y="1720" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-10" value="&lt;font size=&quot;1&quot;&gt;组件市场&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="669.9999999999999" y="1630" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-12" target="e21X7CneFD9sD8UOWSQz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-12" value="&lt;font size=&quot;1&quot;&gt;maven 模板生成插件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="508.19" y="1720" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-13" value="git.si-tech" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-128.png;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="767" y="1820" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;curved=1;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-16" target="e21X7CneFD9sD8UOWSQz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;curved=1;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-16" target="e21X7CneFD9sD8UOWSQz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1670" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#FFFFFF;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="e21X7CneFD9sD8UOWSQz-18" target="e21X7CneFD9sD8UOWSQz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21X7CneFD9sD8UOWSQz-18" value="NEXUS" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.nexus_fabric_switch;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="355.1899999999998" y="1840" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
