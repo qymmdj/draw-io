@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T07:47:53.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.8.5" etag="B6MSJdEHphGjfGbe8SsD" type="github"><diagram id="NeZZ5QACmS47XvC1rrDg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-16T08:02:02.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" version="20.8.5" etag="JQub2pIUfzm_7UziFPCn" type="github">
+  <diagram id="bruZlcHIP3pg97opyE75" name="2021.0.5-@LoadBalanced">
+    <mxGraphModel dx="1120" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1qtRr6nypjZ_Tf2jb777-1" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;;font-size:10.5pt;&quot;&gt; &lt;span style=&quot;color:#bbb529;&quot;&gt;@Bean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt; @LoadBalanced&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;private &lt;/span&gt;RestTemplate &lt;span style=&quot;color:#ffc66d;&quot;&gt;loadBalancedRestTemplate&lt;/span&gt;() {&lt;br&gt;     &lt;span style=&quot;color:#cc7832;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color:#9876aa;&quot;&gt;restTemplate &lt;/span&gt;= &lt;span style=&quot;color:#cc7832;&quot;&gt;new &lt;/span&gt;RestTemplateBuilder().build()&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;     return this&lt;/span&gt;.&lt;span style=&quot;color:#9876aa;&quot;&gt;restTemplate&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt; &lt;/span&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-50" width="410" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1qtRr6nypjZ_Tf2jb777-8" value="LoadBalancerAutoConfiguration&#xa;负载均衡自动配置类" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="290" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="1qtRr6nypjZ_Tf2jb777-9" value="+ restTemplates: RestTemplate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1qtRr6nypjZ_Tf2jb777-8">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1qtRr6nypjZ_Tf2jb777-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1qtRr6nypjZ_Tf2jb777-8">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1qtRr6nypjZ_Tf2jb777-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1qtRr6nypjZ_Tf2jb777-8">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1qtRr6nypjZ_Tf2jb777-12" value="LoadBalancerRequestFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="370" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="1qtRr6nypjZ_Tf2jb777-13" value="+ loadBalancer: LoadBalancerClient" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1qtRr6nypjZ_Tf2jb777-12">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1qtRr6nypjZ_Tf2jb777-14" value="+ transformers: List&lt;LoadBalancerRequestTransformer&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1qtRr6nypjZ_Tf2jb777-12">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
