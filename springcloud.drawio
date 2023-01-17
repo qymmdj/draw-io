@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T09:00:02.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="i9Yy-8ofDoR9pUMPmQsB" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T09:41:23.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="ZWqqLajcdwgY1O0_jT48" version="20.8.5" type="github">
   <diagram id="bruZlcHIP3pg97opyE75" name="2021.0.5-@LoadBalanced">
     <mxGraphModel dx="1947" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,11 +111,23 @@
             <mxPoint x="-120" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-14" value="&lt;b&gt;由LoadBalancerAutoConfiguration 类负责创建:&lt;br&gt;&lt;/b&gt;&lt;br&gt;复杂均衡客户端只有在调用的时候才去创建，每个微服务实例，都会创建一个对应的子的spring context ，这个ioc容器里通过收集被@LoadBalancerClient 注解的类来往容器里注入bean, 注解解析类LoadBalancerClientConfigurationRegistrar 会默认创建&lt;h1&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="840" width="320" height="160" as="geometry" />
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-14" target="dHGN2DLLErdkZUD6mJAF-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-15" value="LoadBalancerClientFactory&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-14" value="&lt;b&gt;由org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration类负责创建:&lt;/b&gt;&lt;br&gt;&lt;br&gt;复杂均衡客户端只有在调用的时候才去创建，每个微服务实例，都会创建一个对应的子的spring context ，这个ioc容器里通过收集被@LoadBalancerClient 注解的类来往容器里注入bean, 注解解析类LoadBalancerClientConfigurationRegistrar 会默认创建&lt;h1&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="830" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-15" target="dHGN2DLLErdkZUD6mJAF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-15" value="LoadBalancerClientFactory&lt;br&gt;代表负载均衡客户端工厂类&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-295" y="880" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-19" value="默认创建RoundRobinLoadBalancer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="980" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-21" value="&lt;b&gt;org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientConfiguration&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;由org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration的loadBalancerClientFactory方法内部默认注入这个&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientConfiguration&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;h1&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="990" width="560" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
