@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T09:41:23.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="ZWqqLajcdwgY1O0_jT48" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T04:01:45.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="MHGANbZfwEWVK7gKM2Pl" version="20.8.20" type="github">
   <diagram id="bruZlcHIP3pg97opyE75" name="2021.0.5-@LoadBalanced">
     <mxGraphModel dx="1947" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,66 +68,78 @@
         <mxCell id="1qtRr6nypjZ_Tf2jb777-51" value="从容器收集被&lt;br&gt;@LoadBalancerClients注解的类" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-1" target="dHGN2DLLErdkZUD6mJAF-2">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHGN2DLLErdkZUD6mJAF-1" target="dHGN2DLLErdkZUD6mJAF-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-1" value="用户给&lt;br&gt;代码Resttemplate加上注解&amp;nbsp;@LoadBalanced" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-1" value="用户给&lt;br&gt;代码Resttemplate加上注解&amp;nbsp;@LoadBalanced" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-310" y="390" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-2" target="dHGN2DLLErdkZUD6mJAF-8">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="dHGN2DLLErdkZUD6mJAF-2" target="dHGN2DLLErdkZUD6mJAF-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-2" value="&lt;br&gt;会执行Resttemplate拦截器LoadBalancerInterceptor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-2" value="&lt;br&gt;会执行Resttemplate拦截器LoadBalancerInterceptor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-295" y="510" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;curved=1;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-6">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;curved=1;" parent="1" source="dHGN2DLLErdkZUD6mJAF-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-120" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-6" value="&lt;h1&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;LoadBalancerAutoConfiguration&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;由LoadBalancerAutoConfiguration 自配置创建&lt;/p&gt;LoadBalancerInterceptor&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-6" value="&lt;h1&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;LoadBalancerAutoConfiguration&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;由LoadBalancerAutoConfiguration 自配置创建&lt;/p&gt;LoadBalancerInterceptor&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-30" y="440" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-8" target="dHGN2DLLErdkZUD6mJAF-12">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="dHGN2DLLErdkZUD6mJAF-8" target="dHGN2DLLErdkZUD6mJAF-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-8" value="LoadBalancerInterceptor 内部会用到负载均衡客户端&lt;br&gt;loadBalancerClient" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-8" value="LoadBalancerInterceptor 内部会用到负载均衡客户端&lt;br&gt;loadBalancerClient" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-295" y="630" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-9" target="dHGN2DLLErdkZUD6mJAF-8">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="dHGN2DLLErdkZUD6mJAF-9" target="dHGN2DLLErdkZUD6mJAF-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-9" value="&lt;h1&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;BlockingLoadBalancerClientAutoConfiguration&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;默认自动配置类创建&lt;/p&gt;BlockingLoadBalancerClient" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-9" value="&lt;h1&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;BlockingLoadBalancerClientAutoConfiguration&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;默认自动配置类创建&lt;/p&gt;BlockingLoadBalancerClient" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-40" y="610" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-12" target="dHGN2DLLErdkZUD6mJAF-15">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="dHGN2DLLErdkZUD6mJAF-12" target="dHGN2DLLErdkZUD6mJAF-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-12" value="&lt;br&gt;loadBalancerClient 通过执行LoadBalancerClientFactory 来创建负载均衡客户端，如轮询，随机等算法复杂均衡客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-12" value="&lt;br&gt;loadBalancerClient 通过执行LoadBalancerClientFactory 来创建负载均衡客户端，如轮询，随机等算法复杂均衡客户端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-295" y="750" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-14">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="dHGN2DLLErdkZUD6mJAF-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-120" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-14" target="dHGN2DLLErdkZUD6mJAF-21">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="dHGN2DLLErdkZUD6mJAF-14" target="dHGN2DLLErdkZUD6mJAF-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-14" value="&lt;b&gt;由org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration类负责创建:&lt;/b&gt;&lt;br&gt;&lt;br&gt;复杂均衡客户端只有在调用的时候才去创建，每个微服务实例，都会创建一个对应的子的spring context ，这个ioc容器里通过收集被@LoadBalancerClient 注解的类来往容器里注入bean, 注解解析类LoadBalancerClientConfigurationRegistrar 会默认创建&lt;h1&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-14" value="&lt;b&gt;由org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration类负责创建:&lt;/b&gt;&lt;br&gt;&lt;br&gt;复杂均衡客户端只有在调用的时候才去创建，每个微服务实例，都会创建一个对应的子的spring context ，这个ioc容器里通过收集被@LoadBalancerClient 注解的类来往容器里注入bean, 注解解析类LoadBalancerClientConfigurationRegistrar 会默认创建&lt;h1&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-40" y="830" width="560" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-15" target="dHGN2DLLErdkZUD6mJAF-19">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="dHGN2DLLErdkZUD6mJAF-15" target="dHGN2DLLErdkZUD6mJAF-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-15" value="LoadBalancerClientFactory&lt;br&gt;代表负载均衡客户端工厂类&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-15" value="LoadBalancerClientFactory&lt;br&gt;代表负载均衡客户端工厂类&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-295" y="880" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-19" value="默认创建RoundRobinLoadBalancer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AOHN78ILGbxUvLxwIOxl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHGN2DLLErdkZUD6mJAF-19" target="AOHN78ILGbxUvLxwIOxl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-19" value="默认创建RoundRobinLoadBalancer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-295" y="980" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHGN2DLLErdkZUD6mJAF-21" value="&lt;b&gt;org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientConfiguration&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;由org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration的loadBalancerClientFactory方法内部默认注入这个&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientConfiguration&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;h1&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dHGN2DLLErdkZUD6mJAF-21" value="&lt;b&gt;org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientConfiguration&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;由org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration的loadBalancerClientFactory方法内部默认注入这个&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientConfiguration&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;h1&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-40" y="990" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AOHN78ILGbxUvLxwIOxl-1" value="服务提供者&lt;br&gt;ServiceInstanceListSupplier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="1200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOHN78ILGbxUvLxwIOxl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AOHN78ILGbxUvLxwIOxl-4" target="AOHN78ILGbxUvLxwIOxl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOHN78ILGbxUvLxwIOxl-4" value="动态创建spring context,从子容器里获取&lt;br&gt;&lt;br&gt;收集标注了LoadBalancerClients注解的类，&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1060" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
